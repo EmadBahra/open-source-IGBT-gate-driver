@@ -48,10 +48,10 @@ L Diode:BZX84Cxx D?
 U 1 1 630D95A8
 P 14450 4875
 AR Path="/630D95A8" Ref="D?"  Part="1" 
-AR Path="/6309618D/630D95A8" Ref="DZunderVoltageFault"  Part="1" 
+AR Path="/6309618D/630D95A8" Ref="DZunderVoltageFault1"  Part="1" 
 AR Path="/63385DDA/630D95A8" Ref="D?"  Part="1" 
 AR Path="/6340E1F3/630D95A8" Ref="D22"  Part="1" 
-F 0 "DZunderVoltageFault" H 13955 4770 50  0000 L CNN
+F 0 "DZunderVoltageFault1" H 13955 4770 50  0000 L CNN
 F 1 "BZX85C20" H 14250 4985 50  0000 L CNN
 F 2 "Diode_SMD:D_MELF" H 14450 4700 50  0001 C CNN
 F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf" H 14450 4875 50  0001 C CNN
@@ -574,10 +574,10 @@ L Transistor_BJT:BC807 Q?
 U 1 1 630D96CE
 P 5865 7905
 AR Path="/630D96CE" Ref="Q?"  Part="1" 
-AR Path="/6309618D/630D96CE" Ref="QfaultLatch"  Part="1" 
+AR Path="/6309618D/630D96CE" Ref="QfaultLatch1"  Part="1" 
 AR Path="/63385DDA/630D96CE" Ref="Q?"  Part="1" 
 AR Path="/6340E1F3/630D96CE" Ref="Q17"  Part="1" 
-F 0 "QfaultLatch" H 5500 8095 50  0000 L CNN
+F 0 "QfaultLatch1" H 5500 8095 50  0000 L CNN
 F 1 "BC807" H 5610 7760 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 6065 7830 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BC808-D.pdf" H 5865 7905 50  0001 L CNN
@@ -1317,10 +1317,10 @@ L Device:D_Schottky Dex?
 U 1 1 61915D54
 P 12755 7520
 AR Path="/61915D54" Ref="Dex?"  Part="1" 
-AR Path="/6309618D/61915D54" Ref="DprotectionHigh"  Part="1" 
+AR Path="/6309618D/61915D54" Ref="DprotectionHigh1"  Part="1" 
 AR Path="/63385DDA/61915D54" Ref="Dex?"  Part="1" 
-AR Path="/6340E1F3/61915D54" Ref="Dex?"  Part="1" 
-F 0 "DprotectionHigh" H 12675 7625 50  0000 C CNN
+AR Path="/6340E1F3/61915D54" Ref="Dex3"  Part="1" 
+F 0 "DprotectionHigh1" H 12675 7625 50  0000 C CNN
 F 1 "1n4148" H 12755 7410 50  0000 C CNN
 F 2 "Diode_SMD:D_SMA" H 12755 7520 50  0001 C CNN
 F 3 "~" H 12755 7520 50  0001 C CNN
@@ -1332,10 +1332,10 @@ L Device:D_Schottky Dex?
 U 1 1 61941051
 P 12755 8460
 AR Path="/61941051" Ref="Dex?"  Part="1" 
-AR Path="/6309618D/61941051" Ref="DprotectionLow"  Part="1" 
+AR Path="/6309618D/61941051" Ref="DprotectionLow1"  Part="1" 
 AR Path="/63385DDA/61941051" Ref="Dex?"  Part="1" 
-AR Path="/6340E1F3/61941051" Ref="Dex?"  Part="1" 
-F 0 "DprotectionLow" H 12745 8565 50  0000 C CNN
+AR Path="/6340E1F3/61941051" Ref="Dex4"  Part="1" 
+F 0 "DprotectionLow1" H 12745 8565 50  0000 C CNN
 F 1 "1n4148" H 12755 8350 50  0000 C CNN
 F 2 "Diode_SMD:D_SMA" H 12755 8460 50  0001 C CNN
 F 3 "~" H 12755 8460 50  0001 C CNN
@@ -1351,10 +1351,10 @@ L Diode:BZX84Cxx D?
 U 1 1 61958594
 P 8005 4040
 AR Path="/61958594" Ref="D?"  Part="1" 
-AR Path="/6309618D/61958594" Ref="D?"  Part="1" 
+AR Path="/6309618D/61958594" Ref="D7"  Part="1" 
 AR Path="/63385DDA/61958594" Ref="D?"  Part="1" 
-AR Path="/6340E1F3/61958594" Ref="D?"  Part="1" 
-F 0 "D?" V 7920 3995 50  0000 L CNN
+AR Path="/6340E1F3/61958594" Ref="D15"  Part="1" 
+F 0 "D7" V 7920 3995 50  0000 L CNN
 F 1 "26v TVS" V 8100 3885 50  0000 L CNN
 F 2 "Diode_SMD:D_MELF" H 8005 3865 50  0001 C CNN
 F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf" H 8005 4040 50  0001 C CNN
@@ -1372,10 +1372,10 @@ L Device:C C?
 U 1 1 619A6A28
 P 8500 4050
 AR Path="/619A6A28" Ref="C?"  Part="1" 
-AR Path="/6309618D/619A6A28" Ref="C?"  Part="1" 
+AR Path="/6309618D/619A6A28" Ref="C22"  Part="1" 
 AR Path="/63385DDA/619A6A28" Ref="C?"  Part="1" 
-AR Path="/6340E1F3/619A6A28" Ref="C?"  Part="1" 
-F 0 "C?" H 8505 3985 50  0000 C CNN
+AR Path="/6340E1F3/619A6A28" Ref="C24"  Part="1" 
+F 0 "C22" H 8505 3985 50  0000 C CNN
 F 1 "100nF" H 8480 4135 50  0000 C CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 8538 3900 50  0001 C CNN
 F 3 "~" H 8500 4050 50  0001 C CNN
@@ -1387,10 +1387,10 @@ L Device:CP C?
 U 1 1 619A742B
 P 7530 4050
 AR Path="/619A742B" Ref="C?"  Part="1" 
-AR Path="/6309618D/619A742B" Ref="C?"  Part="1" 
+AR Path="/6309618D/619A742B" Ref="C21"  Part="1" 
 AR Path="/63385DDA/619A742B" Ref="C?"  Part="1" 
-AR Path="/6340E1F3/619A742B" Ref="C?"  Part="1" 
-F 0 "C?" H 7525 4125 50  0000 C CNN
+AR Path="/6340E1F3/619A742B" Ref="C23"  Part="1" 
+F 0 "C21" H 7525 4125 50  0000 C CNN
 F 1 "47uf/35v" H 7520 3965 50  0000 C CNN
 F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm" H 7568 3900 50  0001 C CNN
 F 3 "~" H 7530 4050 50  0001 C CNN
@@ -1424,10 +1424,10 @@ L Transistor_BJT:BC817 Q?
 U 1 1 619F7C8A
 P 6525 7050
 AR Path="/619F7C8A" Ref="Q?"  Part="1" 
-AR Path="/6309618D/619F7C8A" Ref="Q?"  Part="1" 
+AR Path="/6309618D/619F7C8A" Ref="Q2"  Part="1" 
 AR Path="/63385DDA/619F7C8A" Ref="Q?"  Part="1" 
-AR Path="/6340E1F3/619F7C8A" Ref="Q?"  Part="1" 
-F 0 "Q?" H 6716 7096 50  0000 L CNN
+AR Path="/6340E1F3/619F7C8A" Ref="Q12"  Part="1" 
+F 0 "Q2" H 6716 7096 50  0000 L CNN
 F 1 "BC817" H 6716 7005 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 6725 6975 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BC818-D.pdf" H 6525 7050 50  0001 L CNN
@@ -1439,10 +1439,10 @@ L Transistor_BJT:BC817 Q?
 U 1 1 619FC086
 P 6160 8840
 AR Path="/619FC086" Ref="Q?"  Part="1" 
-AR Path="/6309618D/619FC086" Ref="QsoftTurnOnn"  Part="1" 
+AR Path="/6309618D/619FC086" Ref="QsoftTurnOnn1"  Part="1" 
 AR Path="/63385DDA/619FC086" Ref="Q?"  Part="1" 
-AR Path="/6340E1F3/619FC086" Ref="Q?"  Part="1" 
-F 0 "QsoftTurnOnn" H 6351 8886 50  0000 L CNN
+AR Path="/6340E1F3/619FC086" Ref="Q11"  Part="1" 
+F 0 "QsoftTurnOnn1" H 6351 8886 50  0000 L CNN
 F 1 "BC817" H 6351 8795 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 6360 8765 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BC818-D.pdf" H 6160 8840 50  0001 L CNN
@@ -1454,10 +1454,10 @@ L Transistor_BJT:BC817 Q?
 U 1 1 619FCED8
 P 4655 8770
 AR Path="/619FCED8" Ref="Q?"  Part="1" 
-AR Path="/6309618D/619FCED8" Ref="Q?"  Part="1" 
+AR Path="/6309618D/619FCED8" Ref="Q1"  Part="1" 
 AR Path="/63385DDA/619FCED8" Ref="Q?"  Part="1" 
-AR Path="/6340E1F3/619FCED8" Ref="Q?"  Part="1" 
-F 0 "Q?" H 4846 8816 50  0000 L CNN
+AR Path="/6340E1F3/619FCED8" Ref="Q10"  Part="1" 
+F 0 "Q1" H 4846 8816 50  0000 L CNN
 F 1 "BC817" H 4846 8725 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 4855 8695 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BC818-D.pdf" H 4655 8770 50  0001 L CNN
@@ -1469,10 +1469,10 @@ L Transistor_BJT:BC817 Q?
 U 1 1 619FDDB9
 P 14085 5120
 AR Path="/619FDDB9" Ref="Q?"  Part="1" 
-AR Path="/6309618D/619FDDB9" Ref="Q?"  Part="1" 
+AR Path="/6309618D/619FDDB9" Ref="Q7"  Part="1" 
 AR Path="/63385DDA/619FDDB9" Ref="Q?"  Part="1" 
-AR Path="/6340E1F3/619FDDB9" Ref="Q?"  Part="1" 
-F 0 "Q?" H 14276 5166 50  0000 L CNN
+AR Path="/6340E1F3/619FDDB9" Ref="Q18"  Part="1" 
+F 0 "Q7" H 14276 5166 50  0000 L CNN
 F 1 "BC817" H 14276 5075 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 14285 5045 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BC818-D.pdf" H 14085 5120 50  0001 L CNN
@@ -1485,10 +1485,10 @@ L Transistor_BJT:BC817 Q?
 U 1 1 619FFBE7
 P 11195 4560
 AR Path="/619FFBE7" Ref="Q?"  Part="1" 
-AR Path="/6309618D/619FFBE7" Ref="Q?"  Part="1" 
+AR Path="/6309618D/619FFBE7" Ref="Q6"  Part="1" 
 AR Path="/63385DDA/619FFBE7" Ref="Q?"  Part="1" 
-AR Path="/6340E1F3/619FFBE7" Ref="Q?"  Part="1" 
-F 0 "Q?" H 11386 4606 50  0000 L CNN
+AR Path="/6340E1F3/619FFBE7" Ref="Q15"  Part="1" 
+F 0 "Q6" H 11386 4606 50  0000 L CNN
 F 1 "BC817" H 11386 4515 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 11395 4485 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BC818-D.pdf" H 11195 4560 50  0001 L CNN
@@ -1500,10 +1500,10 @@ L Transistor_BJT:BC817 Q?
 U 1 1 61A017AB
 P 10780 5000
 AR Path="/61A017AB" Ref="Q?"  Part="1" 
-AR Path="/6309618D/61A017AB" Ref="Q?"  Part="1" 
+AR Path="/6309618D/61A017AB" Ref="Q3"  Part="1" 
 AR Path="/63385DDA/61A017AB" Ref="Q?"  Part="1" 
-AR Path="/6340E1F3/61A017AB" Ref="Q?"  Part="1" 
-F 0 "Q?" H 10971 5046 50  0000 L CNN
+AR Path="/6340E1F3/61A017AB" Ref="Q13"  Part="1" 
+F 0 "Q3" H 10971 5046 50  0000 L CNN
 F 1 "BC817" H 10971 4955 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 10980 4925 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BC818-D.pdf" H 10780 5000 50  0001 L CNN
@@ -1515,10 +1515,10 @@ L Transistor_BJT:BC807 Q?
 U 1 1 61926996
 P 11170 8135
 AR Path="/61926996" Ref="Q?"  Part="1" 
-AR Path="/6309618D/61926996" Ref="Q?"  Part="1" 
+AR Path="/6309618D/61926996" Ref="Q4"  Part="1" 
 AR Path="/63385DDA/61926996" Ref="Q?"  Part="1" 
-AR Path="/6340E1F3/61926996" Ref="Q?"  Part="1" 
-F 0 "Q?" H 11050 8255 50  0000 L CNN
+AR Path="/6340E1F3/61926996" Ref="Q14"  Part="1" 
+F 0 "Q4" H 11050 8255 50  0000 L CNN
 F 1 "BC807" H 11000 7985 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 11370 8060 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BC808-D.pdf" H 11170 8135 50  0001 L CNN
@@ -1637,10 +1637,10 @@ L Diode:1.5KExxA D?
 U 1 1 61A66FE0
 P 4675 1585
 AR Path="/61A66FE0" Ref="D?"  Part="1" 
-AR Path="/6309618D/61A66FE0" Ref="D?"  Part="1" 
+AR Path="/6309618D/61A66FE0" Ref="D6"  Part="1" 
 AR Path="/63385DDA/61A66FE0" Ref="D?"  Part="1" 
-AR Path="/6340E1F3/61A66FE0" Ref="D?"  Part="1" 
-F 0 "D?" H 4675 1802 50  0000 C CNN
+AR Path="/6340E1F3/61A66FE0" Ref="D12"  Part="1" 
+F 0 "D6" H 4675 1802 50  0000 C CNN
 F 1 "1.5KE6V8A" H 4675 1711 50  0000 C CNN
 F 2 "Diode_THT:D_DO-201AD_P5.08mm_Vertical_AnodeUp" H 4675 1385 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 4625 1585 50  0001 C CNN
@@ -1666,10 +1666,12 @@ Wire Notes Line
 Text HLabel 7470 3540 0    50   Input ~ 0
 Vin
 $Comp
-L Device:Fuse F?
+L Device:Fuse F2
 U 1 1 61AD0B07
 P 7665 3540
-F 0 "F?" V 7468 3540 50  0000 C CNN
+AR Path="/6309618D/61AD0B07" Ref="F2"  Part="1" 
+AR Path="/6340E1F3/61AD0B07" Ref="F4"  Part="1" 
+F 0 "F2" V 7468 3540 50  0000 C CNN
 F 1 "Fuse" V 7559 3540 50  0000 C CNN
 F 2 "" V 7595 3540 50  0001 C CNN
 F 3 "~" H 7665 3540 50  0001 C CNN
@@ -1713,4 +1715,17 @@ Text Label 6910 6825 0    50   ~ 0
 on
 Text Notes 3170 7550 0    50   ~ 0
 Control Circuit
+$Comp
+L Graphic:SYM_Arrow45_Normal SYM1
+U 1 1 61C5788B
+P 780 2520
+AR Path="/6309618D/61C5788B" Ref="SYM1"  Part="1" 
+AR Path="/6340E1F3/61C5788B" Ref="#SYM2"  Part="1" 
+F 0 "SYM1" H 930 2570 50  0001 C CNN
+F 1 "SYM_Arrow45_Normal" H 780 2420 50  0001 C CNN
+F 2 "IGBT-DRIVER-emad:skm200GB" H 780 2520 50  0001 C CNN
+F 3 "~" H 780 2520 50  0001 C CNN
+	1    780  2520
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -268,6 +268,19 @@ X ~~ 4 0 300 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Graphic_SYM_Arrow45_Normal
+#
+DEF Graphic_SYM_Arrow45_Normal #SYM 0 40 Y Y 1 F N
+F0 "#SYM" 150 50 50 H I C CNN
+F1 "Graphic_SYM_Arrow45_Normal" 0 -100 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 10 60 -60 -70 70 N
+P 4 0 1 0 70 -70 10 -40 40 -10 70 -70 F
+ENDDRAW
+ENDDEF
+#
 # IGBT-DRIVER-rescue_miw06-24s24-GH-kicad
 #
 DEF IGBT-DRIVER-rescue_miw06-24s24-GH-kicad U 0 40 Y Y 1 F N
@@ -355,29 +368,6 @@ X ~ 1 -300 100 100 R 50 50 1 1 P
 X ~ 2 -300 -100 100 R 50 50 1 1 P
 X ~ 3 300 -100 100 L 50 50 1 1 P
 X ~ 4 300 100 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Jumper_SolderJumper_2_Bridged
-#
-DEF Jumper_SolderJumper_2_Bridged JP 0 0 Y N 1 F N
-F0 "JP" 0 80 50 H V C CNN
-F1 "Jumper_SolderJumper_2_Bridged" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- SolderJumper*Bridged*
-$ENDFPLIST
-DRAW
-A -10 0 40 901 -901 0 1 0 N -10 40 -10 -40
-A -10 0 40 901 -901 0 1 0 F -10 40 -10 -40
-A 10 0 40 -899 899 0 1 0 N 10 -40 10 40
-A 10 0 40 -899 899 0 1 0 F 10 -40 10 40
-S -20 20 20 -20 0 1 0 F
-P 2 0 1 0 -10 40 -10 -40 N
-P 2 0 1 0 10 40 10 -40 N
-X A 1 -150 0 100 R 50 50 1 1 P
-X B 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -625,21 +615,6 @@ P 3 0 1 8 20 -50 10 -80 10 -80 N
 P 3 0 1 8 40 -50 -40 -50 -40 -50 N
 P 4 0 1 8 40 -50 30 -80 30 -80 30 -80 N
 X GNDPWR 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_VPP
-#
-DEF power_VPP #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_VPP" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X VPP 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
