@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name IGBT-DRIVER-rescue)(type Legacy)(uri "${KIPRJMOD}/IGBT DRIVER-rescue.lib")(options "")(descr ""))
+)

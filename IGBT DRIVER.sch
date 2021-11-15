@@ -1,0 +1,790 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:+15V #PWR010
+U 1 1 615757E4
+P 1445 1540
+F 0 "#PWR010" H 1445 1390 50  0001 C CNN
+F 1 "+15V" H 1460 1713 50  0000 C CNN
+F 2 "" H 1445 1540 50  0001 C CNN
+F 3 "" H 1445 1540 50  0001 C CNN
+	1    1445 1540
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1445 1795 1445 1635
+Connection ~ 1445 1635
+Wire Wire Line
+	1445 1635 1505 1635
+Wire Wire Line
+	1875 1635 1875 1755
+Wire Wire Line
+	1805 1635 1875 1635
+Wire Wire Line
+	1445 2095 1445 2185
+Wire Wire Line
+	1445 2185 1875 2185
+Connection ~ 1875 2185
+Wire Wire Line
+	1875 2185 2125 2185
+Wire Wire Line
+	1875 2055 1875 2185
+Wire Wire Line
+	2395 2025 2285 2025
+Wire Wire Line
+	2285 2025 2285 2185
+Connection ~ 2285 2185
+Wire Wire Line
+	2285 2185 2395 2185
+Wire Wire Line
+	1875 1635 2125 1635
+Connection ~ 1875 1635
+Wire Wire Line
+	3780 2115 3780 2075
+Wire Wire Line
+	3780 1695 3780 1775
+Wire Wire Line
+	3465 2055 3465 2115
+Connection ~ 3465 2115
+Wire Wire Line
+	3465 2115 3780 2115
+Wire Wire Line
+	3465 1695 3465 1755
+Wire Wire Line
+	3295 1695 3465 1695
+Connection ~ 3465 1695
+Wire Wire Line
+	4535 1755 4535 1695
+Wire Wire Line
+	4535 2055 4535 2115
+Wire Wire Line
+	4535 2115 4115 2115
+Connection ~ 3780 2115
+$Comp
+L power:GNDPWR #PWR017
+U 1 1 615B9789
+P 4115 2115
+F 0 "#PWR017" H 4115 1915 50  0001 C CNN
+F 1 "GNDPWR" H 4119 1961 50  0000 C CNN
+F 2 "" H 4115 2065 50  0001 C CNN
+F 3 "" H 4115 2065 50  0001 C CNN
+	1    4115 2115
+	1    0    0    -1  
+$EndComp
+Connection ~ 4535 1695
+$Comp
+L power:+15V #PWR03
+U 1 1 61625A8E
+P 1665 2975
+F 0 "#PWR03" H 1665 2825 50  0001 C CNN
+F 1 "+15V" H 1680 3148 50  0000 C CNN
+F 2 "" H 1665 2975 50  0001 C CNN
+F 3 "" H 1665 2975 50  0001 C CNN
+	1    1665 2975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1665 3010 1665 2975
+Wire Wire Line
+	1665 3310 1665 3325
+$Comp
+L power:GNDD #PWR08
+U 1 1 61663885
+P 1665 3685
+F 0 "#PWR08" H 1665 3435 50  0001 C CNN
+F 1 "GNDD" H 1669 3530 50  0000 C CNN
+F 2 "" H 1665 3685 50  0001 C CNN
+F 3 "" H 1665 3685 50  0001 C CNN
+	1    1665 3685
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1665 3685 1665 3625
+$Comp
+L power:GNDD #PWR011
+U 1 1 61740D01
+P 1445 2185
+F 0 "#PWR011" H 1445 1935 50  0001 C CNN
+F 1 "GNDD" H 1449 2030 50  0000 C CNN
+F 2 "" H 1445 2185 50  0001 C CNN
+F 3 "" H 1445 2185 50  0001 C CNN
+	1    1445 2185
+	1    0    0    -1  
+$EndComp
+Connection ~ 1445 2185
+Wire Wire Line
+	4535 1695 4890 1695
+Wire Wire Line
+	5175 1695 5175 1765
+Wire Wire Line
+	5175 2065 5175 2115
+Wire Wire Line
+	5175 2115 4890 2115
+Connection ~ 4535 2115
+Wire Wire Line
+	4890 2065 4890 2115
+Connection ~ 4890 2115
+Wire Wire Line
+	4890 2115 4535 2115
+Connection ~ 4890 1695
+Wire Wire Line
+	4890 1695 5175 1695
+Wire Wire Line
+	4890 1695 4890 1765
+Wire Wire Line
+	1445 1540 1445 1635
+Connection ~ 2125 2185
+Wire Wire Line
+	2125 2185 2285 2185
+Wire Wire Line
+	2125 2055 2125 2185
+Wire Wire Line
+	2125 1755 2125 1635
+Connection ~ 2125 1635
+Wire Wire Line
+	2125 1635 2285 1635
+$Comp
+L Device:L L2
+U 1 1 61578A74
+P 1655 1635
+F 0 "L2" V 1845 1635 50  0000 C CNN
+F 1 "10uh" V 1754 1635 50  0000 C CNN
+F 2 "gh- kicad:INDUCTOR.SMD.12" H 1655 1635 50  0001 C CNN
+F 3 "~" H 1655 1635 50  0001 C CNN
+	1    1655 1635
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C13
+U 1 1 615E1B36
+P 5175 1915
+F 0 "C13" H 5150 1820 50  0000 C CNN
+F 1 "100nF" V 5285 1915 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 5213 1765 50  0001 C CNN
+F 3 "~" H 5175 1915 50  0001 C CNN
+	1    5175 1915
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C11
+U 1 1 615E0997
+P 4890 1915
+F 0 "C11" H 4910 1830 50  0000 C CNN
+F 1 "1uF" V 5005 1915 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 4928 1765 50  0001 C CNN
+F 3 "~" H 4890 1915 50  0001 C CNN
+	1    4890 1915
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 615A8A09
+P 3465 1905
+F 0 "R4" V 3460 1950 50  0000 R CNN
+F 1 "2k/1w" V 3375 2030 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P7.62mm_Vertical" V 3395 1905 50  0001 C CNN
+F 3 "~" H 3465 1905 50  0001 C CNN
+	1    3465 1905
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:CP C7
+U 1 1 6159A404
+P 3780 1925
+F 0 "C7" H 3898 1971 50  0000 L CNN
+F 1 "10uf/35v" H 3898 1880 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 3818 1775 50  0001 C CNN
+F 3 "~" H 3780 1925 50  0001 C CNN
+	1    3780 1925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C9
+U 1 1 615702A1
+P 2125 1905
+F 0 "C9" H 2125 1835 50  0000 C CNN
+F 1 "100nf" V 2000 1900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 2163 1755 50  0001 C CNN
+F 3 "~" H 2125 1905 50  0001 C CNN
+	1    2125 1905
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 615694F7
+P 5525 4420
+F 0 "H4" H 5625 4466 50  0000 L CNN
+F 1 "MountingHole" H 5625 4375 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Plated_Hole_D4.0mm" H 5525 4420 50  0001 C CNN
+F 3 "~" H 5525 4420 50  0001 C CNN
+	1    5525 4420
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 61568B0D
+P 4730 4415
+F 0 "H3" H 4830 4461 50  0000 L CNN
+F 1 "MountingHole" H 4830 4370 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Plated_Hole_D4.0mm" H 4730 4415 50  0001 C CNN
+F 3 "~" H 4730 4415 50  0001 C CNN
+	1    4730 4415
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 615685B7
+P 4730 4180
+F 0 "H2" H 4830 4226 50  0000 L CNN
+F 1 "MountingHole" H 4830 4135 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Plated_Hole_D4.0mm" H 4730 4180 50  0001 C CNN
+F 3 "~" H 4730 4180 50  0001 C CNN
+	1    4730 4180
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 61567871
+P 5520 4175
+F 0 "H1" H 5620 4221 50  0000 L CNN
+F 1 "MountingHole" H 5620 4130 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Plated_Hole_D4.0mm" H 5520 4175 50  0001 C CNN
+F 3 "~" H 5520 4175 50  0001 C CNN
+	1    5520 4175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 61627AB8
+P 1665 3475
+F 0 "D1" H 1565 3520 50  0000 C CNN
+F 1 "LED" H 1670 3390 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Castellated" H 1665 3475 50  0001 C CNN
+F 3 "~" H 1665 3475 50  0001 C CNN
+	1    1665 3475
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 61626A4A
+P 1665 3160
+F 0 "R1" V 1660 3155 50  0000 C CNN
+F 1 "1.8k" V 1549 3160 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1595 3160 50  0001 C CNN
+F 3 "~" H 1665 3160 50  0001 C CNN
+	1    1665 3160
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:CP C8
+U 1 1 6159A3FE
+P 4535 1905
+F 0 "C8" H 4565 1995 50  0000 L CNN
+F 1 "100uf/35v" V 4410 1705 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 4573 1755 50  0001 C CNN
+F 3 "~" H 4535 1905 50  0001 C CNN
+	1    4535 1905
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C4
+U 1 1 6157CFEA
+P 1875 1905
+F 0 "C4" H 1890 1990 50  0000 L CNN
+F 1 "10uf/35v" V 1670 1730 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 1913 1755 50  0001 C CNN
+F 3 "~" H 1875 1905 50  0001 C CNN
+	1    1875 1905
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C3
+U 1 1 6157C243
+P 1445 1945
+F 0 "C3" H 1325 2105 50  0000 L CNN
+F 1 "100uf/35v" V 1240 1755 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 1483 1795 50  0001 C CNN
+F 3 "~" H 1445 1945 50  0001 C CNN
+	1    1445 1945
+	1    0    0    -1  
+$EndComp
+$Comp
+L IGBT-DRIVER-rescue:miw06-24s24-GH-kicad U1
+U 1 1 6156C075
+P 2595 1525
+F 0 "U1" H 2845 1640 50  0000 C CNN
+F 1 "miw06-24s24" H 2845 1549 50  0000 C CNN
+F 2 "gh- kicad:MIWI06" H 2595 1525 50  0001 C CNN
+F 3 "" H 2595 1525 50  0001 C CNN
+	1    2595 1525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D9
+U 1 1 6196EC2F
+P 2070 3495
+F 0 "D9" H 1960 3535 50  0000 C CNN
+F 1 "LED" H 2075 3405 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Castellated" H 2070 3495 50  0001 C CNN
+F 3 "~" H 2070 3495 50  0001 C CNN
+	1    2070 3495
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 6196EC35
+P 2070 3160
+F 0 "R3" V 2065 3165 50  0000 C CNN
+F 1 "1.8k" V 1954 3160 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2000 3160 50  0001 C CNN
+F 3 "~" H 2070 3160 50  0001 C CNN
+	1    2070 3160
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3465 1585 3465 1695
+Wire Wire Line
+	3465 1695 3780 1695
+$Comp
+L power:+24V #PWR01
+U 1 1 61A18CA8
+P 3465 1585
+F 0 "#PWR01" H 3465 1435 50  0001 C CNN
+F 1 "+24V" H 3480 1758 50  0000 C CNN
+F 2 "" H 3465 1585 50  0001 C CNN
+F 3 "" H 3465 1585 50  0001 C CNN
+	1    3465 1585
+	1    0    0    -1  
+$EndComp
+Wire Notes Line width 12 style solid
+	6250 780  650  780 
+Wire Notes Line width 12 style solid
+	650  780  650  4565
+Wire Notes Line width 12 style solid
+	650  4565 6250 4565
+Wire Notes Line width 12 style solid
+	6250 780  6250 4565
+Connection ~ 3780 1695
+$Comp
+L Diode:1.5KExxA D12
+U 1 1 6198EADC
+P 4115 1695
+F 0 "D12" H 4120 1585 50  0000 C CNN
+F 1 "1.5KE4A" H 4150 1795 50  0000 C CNN
+F 2 "Diode_THT:D_DO-201AD_P5.08mm_Vertical_AnodeUp" H 4115 1495 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 4065 1695 50  0001 C CNN
+	1    4115 1695
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Bridged JP2
+U 1 1 61990697
+P 4120 1310
+F 0 "JP2" H 4135 1215 50  0000 C CNN
+F 1 "SolderJumper_2_Bridged" H 4160 1225 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 4120 1310 50  0001 C CNN
+F 3 "~" H 4120 1310 50  0001 C CNN
+	1    4120 1310
+	1    0    0    -1  
+$EndComp
+Text Notes 3695 1260 0    50   ~ 0
+cut jumper for -5v bias
+Wire Wire Line
+	3295 2115 3465 2115
+$Comp
+L power:GNDPWR #PWR012
+U 1 1 61D5AC05
+P 2070 3715
+F 0 "#PWR012" H 2070 3515 50  0001 C CNN
+F 1 "GNDPWR" H 2074 3561 50  0000 C CNN
+F 2 "" H 2070 3665 50  0001 C CNN
+F 3 "" H 2070 3665 50  0001 C CNN
+	1    2070 3715
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3780 1695 3965 1695
+Wire Wire Line
+	4265 1695 4535 1695
+Wire Wire Line
+	3970 1310 3780 1310
+Wire Wire Line
+	3780 1310 3780 1695
+Wire Wire Line
+	4270 1310 4535 1310
+Wire Wire Line
+	4535 1310 4535 1695
+Connection ~ 4115 2115
+Wire Wire Line
+	4115 2115 3780 2115
+$Comp
+L power:VPP #PWR018
+U 1 1 615CF5E2
+P 4890 1695
+F 0 "#PWR018" H 4890 1545 50  0001 C CNN
+F 1 "VPP" H 4905 1868 50  0000 C CNN
+F 2 "" H 4890 1695 50  0001 C CNN
+F 3 "" H 4890 1695 50  0001 C CNN
+	1    4890 1695
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2395 1785 2285 1785
+Wire Wire Line
+	2285 1785 2285 1635
+Connection ~ 2285 1635
+Wire Wire Line
+	2285 1635 2395 1635
+Wire Wire Line
+	2070 3715 2070 3645
+Wire Wire Line
+	2070 3310 2070 3345
+Wire Wire Line
+	2070 3010 2070 2975
+Text Notes 4605 3920 0    50   ~ 0
+footrint check beshe
+Wire Wire Line
+	4775 3285 4845 3285
+$Comp
+L Diode_Bridge:DF10M D29
+U 1 1 61A6EFB6
+P 5145 3285
+F 0 "D29" H 5305 3475 50  0000 L CNN
+F 1 "DF10M" H 5305 3095 50  0000 L CNN
+F 2 "Diode_SMD:Diode_Bridge_Vishay_DFS" H 5295 3410 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/88571/dfm.pdf" H 5145 3285 50  0001 C CNN
+	1    5145 3285
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5145 3630 5145 3585
+Wire Wire Line
+	5145 2935 5145 2985
+$Comp
+L power:+15V #PWR09
+U 1 1 61620C2C
+P 5145 2935
+F 0 "#PWR09" H 5145 2785 50  0001 C CNN
+F 1 "+15V" H 5160 3108 50  0000 C CNN
+F 2 "" H 5145 2935 50  0001 C CNN
+F 3 "" H 5145 2935 50  0001 C CNN
+	1    5145 2935
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR05
+U 1 1 6169C69B
+P 5145 3630
+F 0 "#PWR05" H 5145 3380 50  0001 C CNN
+F 1 "GNDD" H 5220 3485 50  0000 R CNN
+F 2 "" H 5145 3630 50  0001 C CNN
+F 3 "" H 5145 3630 50  0001 C CNN
+	1    5145 3630
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Fuse_Small F1
+U 1 1 61622290
+P 4675 3285
+F 0 "F1" H 4675 3470 50  0000 C CNN
+F 1 "Fuse_Small" H 4710 3380 50  0000 C CNN
+F 2 "gh- kicad:fuse.holder.1808" H 4675 3285 50  0001 C CNN
+F 3 "~" H 4675 3285 50  0001 C CNN
+	1    4675 3285
+	1    0    0    -1  
+$EndComp
+Text Label 4515 3285 2    50   ~ 0
+Vin+
+Text Label 5595 3285 0    50   ~ 0
+Vin-
+Text Label 3985 3960 2    50   ~ 0
+Vin-
+Text Label 3975 3440 2    50   ~ 0
+Vin+
+$Comp
+L Connector_Generic:Conn_01x04 J4
+U 1 1 615C8B34
+P 3005 2775
+F 0 "J4" H 3230 2935 50  0000 C CNN
+F 1 "Conn_01x04" V 3125 2740 50  0000 C CNN
+F 2 "gh- kicad:WJ250-3.5" H 3005 2775 50  0001 C CNN
+F 3 "~" H 3005 2775 50  0001 C CNN
+	1    3005 2775
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J1
+U 1 1 6155A0ED
+P 3005 3340
+F 0 "J1" H 3260 3180 50  0000 C CNN
+F 1 "Conn_01x04" V 3130 3360 50  0000 C CNN
+F 2 "gh- kicad:WJ250-3.5" H 3005 3340 50  0001 C CNN
+F 3 "~" H 3005 3340 50  0001 C CNN
+	1    3005 3340
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J2
+U 1 1 6155D034
+P 3015 3860
+F 0 "J2" H 3275 3825 50  0000 C CNN
+F 1 "Conn_01x04" V 3140 3800 50  0000 C CNN
+F 2 "gh- kicad:WJ250-3.5" H 3015 3860 50  0001 C CNN
+F 3 "~" H 3015 3860 50  0001 C CNN
+	1    3015 3860
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3205 2675 3955 2675
+Wire Wire Line
+	3960 2775 3205 2775
+Wire Wire Line
+	3205 2875 3965 2875
+Text Label 3965 2975 2    50   ~ 0
+EMITTER_DOWN
+Text Label 3960 2775 2    50   ~ 0
+EMITTER_TOP
+Text Label 3955 2675 2    50   ~ 0
+GATE_TOP
+Text Label 3965 2875 2    50   ~ 0
+GATE_DOWN
+Wire Wire Line
+	3215 4060 3985 4060
+Text Label 3985 4060 2    50   ~ 0
+Error
+Wire Wire Line
+	3215 3860 3985 3860
+Text Label 3985 3860 2    50   ~ 0
+Pulse-BOTTOM
+Text Label 3975 3340 2    50   ~ 0
+Pulse-TOP
+Wire Wire Line
+	3205 2975 3965 2975
+Connection ~ 5175 1695
+Wire Wire Line
+	5380 1695 5175 1695
+Connection ~ 5175 2115
+$Comp
+L Diode:1.5KExxA D15
+U 1 1 619AF1EC
+P 5380 1930
+F 0 "D15" H 5380 2147 50  0000 C CNN
+F 1 "1.5KE24A" H 5415 2030 50  0000 C CNN
+F 2 "Diode_THT:D_DO-201AD_P5.08mm_Vertical_AnodeUp" H 5380 1730 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 5330 1930 50  0001 C CNN
+	1    5380 1930
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5380 1780 5380 1695
+Wire Wire Line
+	5380 2080 5380 2115
+Wire Wire Line
+	5380 2115 5175 2115
+$Comp
+L power:+24V #PWR02
+U 1 1 61D49729
+P 2070 2975
+F 0 "#PWR02" H 2070 2825 50  0001 C CNN
+F 1 "+24V" H 2085 3148 50  0000 C CNN
+F 2 "" H 2070 2975 50  0001 C CNN
+F 3 "" H 2070 2975 50  0001 C CNN
+	1    2070 2975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3215 3960 3985 3960
+Text Label 3980 3760 2    50   ~ 0
+Fault-Reset
+Wire Wire Line
+	3215 3760 3980 3760
+Wire Wire Line
+	3205 3540 3975 3540
+Text Label 3975 3540 2    50   ~ 0
+Error_top
+Wire Wire Line
+	3205 3340 3975 3340
+Wire Wire Line
+	3205 3440 3975 3440
+Text Label 3970 3240 2    50   ~ 0
+Reset_top
+Wire Wire Line
+	3205 3240 3970 3240
+Wire Wire Line
+	5595 3285 5445 3285
+Wire Wire Line
+	4575 3285 4515 3285
+$Sheet
+S 9080 2810 1010 1805
+U 6309618D
+F0 "Gate Driver Top" 50
+F1 "myGateDriver.sch" 50
+F2 "Pulse" I L 9080 3170 50 
+F3 "Vpp" I R 10090 2860 50 
+F4 "GND-d" I L 9080 3345 50 
+F5 "Pulse-Disable" I R 10090 3000 50 
+F6 "GND-p" I R 10090 4445 50 
+F7 "Emitter" I R 10090 3965 50 
+F8 "Gate" I R 10090 3795 50 
+F9 "Collector" I R 10090 3605 50 
+F10 "~Reset" I R 10090 3200 50 
+F11 "~Fault" I R 10090 3395 50 
+F12 "~its-ON" I R 10090 4195 50 
+F13 "Pulse-Disable+" I L 9080 3715 50 
+F14 "Pulse-Disable-" I L 9080 3855 50 
+$EndSheet
+$Comp
+L Connector:Screw_Terminal_01x01 J3
+U 1 1 6332A6B1
+P 10500 3605
+F 0 "J3" H 10580 3647 50  0000 L CNN
+F 1 "Screw_Terminal_01x01" H 10580 3556 50  0000 L CNN
+F 2 "" H 10500 3605 50  0001 C CNN
+F 3 "~" H 10500 3605 50  0001 C CNN
+	1    10500 3605
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10090 3605 10300 3605
+Text Label 10605 3795 2    50   ~ 0
+GATE_TOP
+Wire Wire Line
+	10090 3795 10605 3795
+Wire Wire Line
+	10090 3965 10605 3965
+Text Label 10605 3965 2    50   ~ 0
+EMITTER_TOP
+Text Label 10540 3395 2    50   ~ 0
+Error_top
+Wire Wire Line
+	10090 3395 10540 3395
+Text Label 10550 3200 2    50   ~ 0
+Reset_top
+Wire Wire Line
+	10090 3200 10550 3200
+Text Label 10550 2860 2    50   ~ 0
+VCC_top
+Wire Wire Line
+	10090 2860 10550 2860
+Text Label 10550 4445 2    50   ~ 0
+GND_top
+Wire Wire Line
+	10090 4445 10550 4445
+Text Label 10770 3000 2    50   ~ 0
+pulse_disable_top
+Wire Wire Line
+	10090 3000 10770 3000
+Wire Wire Line
+	10090 4195 10605 4195
+Text Label 10605 4195 2    50   ~ 0
+On_TOP
+Text Label 8585 3170 0    50   ~ 0
+Pulse-TOP
+Wire Wire Line
+	8585 3170 9080 3170
+Text Label 8585 3345 0    50   ~ 0
+Vin-
+Wire Wire Line
+	9080 3345 8585 3345
+Wire Wire Line
+	10135 6450 10345 6450
+Text Label 10795 6640 2    50   ~ 0
+GATE_BOTTOM
+Wire Wire Line
+	10135 6640 10795 6640
+Wire Wire Line
+	10135 6810 10795 6810
+Text Label 10795 6810 2    50   ~ 0
+EMITTER_BOTTOM
+Text Label 10770 6240 2    50   ~ 0
+Error_BOTTOM
+Wire Wire Line
+	10135 6240 10770 6240
+Text Label 10775 6045 2    50   ~ 0
+Reset_BOTTOM
+Wire Wire Line
+	10135 6045 10775 6045
+Text Label 10690 5705 2    50   ~ 0
+VCC_BOTTOM
+Wire Wire Line
+	10135 5705 10690 5705
+Text Label 10775 7290 2    50   ~ 0
+GND_BOTTOM
+Wire Wire Line
+	10135 7290 10775 7290
+Text Label 11020 5845 2    50   ~ 0
+pulse_disable_BOTTOM
+Wire Wire Line
+	10135 5845 11020 5845
+Wire Wire Line
+	10135 7040 10810 7040
+Text Label 10810 7040 2    50   ~ 0
+On_BOTTOM
+Text Label 8560 6015 0    50   ~ 0
+Pulse-BOTTOM
+Wire Wire Line
+	8560 6015 9125 6015
+Text Label 8555 6190 0    50   ~ 0
+Vin-
+Wire Wire Line
+	9125 6190 8555 6190
+Text Label 8590 3715 0    50   ~ 0
+On_BOTTOM
+$Comp
+L Connector:Screw_Terminal_01x01 J5
+U 1 1 63385DE0
+P 10545 6450
+F 0 "J5" H 10625 6492 50  0000 L CNN
+F 1 "Screw_Terminal_01x01" H 10625 6401 50  0000 L CNN
+F 2 "" H 10545 6450 50  0001 C CNN
+F 3 "~" H 10545 6450 50  0001 C CNN
+	1    10545 6450
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 9125 5655 1010 1805
+U 6340E1F3
+F0 "Gate Driver bottom" 50
+F1 "myGateDriver.sch" 50
+F2 "Pulse" I L 9125 6015 50 
+F3 "Vpp" I R 10135 5705 50 
+F4 "GND-d" I L 9125 6190 50 
+F5 "Pulse-Disable" I R 10135 5845 50 
+F6 "GND-p" I R 10135 7290 50 
+F7 "Emitter" I R 10135 6810 50 
+F8 "Gate" I R 10135 6640 50 
+F9 "Collector" I R 10135 6450 50 
+F10 "~Reset" I R 10135 6045 50 
+F11 "~Fault" I R 10135 6240 50 
+F12 "~its-ON" I R 10135 7040 50 
+F13 "Pulse-Disable+" I L 9125 6560 50 
+F14 "Pulse-Disable-" I L 9125 6700 50 
+$EndSheet
+Text Label 8585 3855 0    50   ~ 0
+GND_BOTTOM
+Wire Wire Line
+	8585 3855 9080 3855
+Wire Wire Line
+	9080 3715 8590 3715
+Wire Wire Line
+	8550 6700 9125 6700
+Wire Wire Line
+	9125 6560 8555 6560
+Text Label 8555 6560 0    50   ~ 0
+On_TOP
+Text Label 8550 6700 0    50   ~ 0
+GND_top
+$EndSCHEMATC
