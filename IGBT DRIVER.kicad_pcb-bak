@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 26)
+    (drawings 27)
     (tracks 352)
     (zones 0)
     (modules 123)
@@ -6303,12 +6303,13 @@
     )
   )
 
-  (gr_text "VERY HIGH VOLTAGE" (at 228.092 64.008 90) (layer F.SilkS)
+  (gr_line (start 165.2905 53.7845) (end 169.4815 53.7845) (layer F.SilkS) (width 0.12))
+  (gr_line (start 165.2905 64.262) (end 165.2905 53.7845) (layer F.SilkS) (width 0.12))
+  (gr_line (start 175.514 64.262) (end 165.2905 64.262) (layer F.SilkS) (width 0.12))
+  (gr_line (start 175.514 72.517) (end 175.514 64.262) (layer F.SilkS) (width 0.12))
+  (gr_text "VERY HIGH VOLTAGE" (at 225.7425 64.0715 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_line (start 176.149 62.611) (end 176.149 59.944) (layer F.SilkS) (width 0.12))
-  (gr_line (start 175.514 62.611) (end 176.149 62.611) (layer F.SilkS) (width 0.12))
-  (gr_line (start 175.514 72.517) (end 175.514 62.611) (layer F.SilkS) (width 0.12))
   (gr_line (start 176.403 72.517) (end 175.514 72.517) (layer F.SilkS) (width 0.12))
   (gr_line (start 190.119 72.517) (end 176.403 72.517) (layer F.SilkS) (width 0.12))
   (gr_line (start 190.119 80.3275) (end 190.119 72.517) (layer F.SilkS) (width 0.12))
