@@ -202,7 +202,7 @@ U 1 1 615694F7
 P 5525 4420
 F 0 "H4" H 5625 4466 50  0000 L CNN
 F 1 "MountingHole" H 5625 4375 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D4.0mm" H 5525 4420 50  0001 C CNN
+F 2 "MountingHole:MountingHole_4.3x6.2mm_M4_Pad_Via" H 5525 4420 50  0001 C CNN
 F 3 "~" H 5525 4420 50  0001 C CNN
 	1    5525 4420
 	1    0    0    -1  
@@ -213,7 +213,7 @@ U 1 1 61568B0D
 P 4730 4415
 F 0 "H3" H 4830 4461 50  0000 L CNN
 F 1 "MountingHole" H 4830 4370 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D4.0mm" H 4730 4415 50  0001 C CNN
+F 2 "MountingHole:MountingHole_4.3x6.2mm_M4_Pad_Via" H 4730 4415 50  0001 C CNN
 F 3 "~" H 4730 4415 50  0001 C CNN
 	1    4730 4415
 	1    0    0    -1  
@@ -224,7 +224,7 @@ U 1 1 615685B7
 P 4730 4180
 F 0 "H2" H 4830 4226 50  0000 L CNN
 F 1 "MountingHole" H 4830 4135 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D4.0mm" H 4730 4180 50  0001 C CNN
+F 2 "MountingHole:MountingHole_4.3x6.2mm_M4_Pad_Via" H 4730 4180 50  0001 C CNN
 F 3 "~" H 4730 4180 50  0001 C CNN
 	1    4730 4180
 	1    0    0    -1  
@@ -235,7 +235,7 @@ U 1 1 61567871
 P 5520 4175
 F 0 "H1" H 5620 4221 50  0000 L CNN
 F 1 "MountingHole" H 5620 4130 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D4.0mm" H 5520 4175 50  0001 C CNN
+F 2 "MountingHole:MountingHole_4.3x6.2mm_M4_Pad_Via" H 5520 4175 50  0001 C CNN
 F 3 "~" H 5520 4175 50  0001 C CNN
 	1    5520 4175
 	1    0    0    -1  
@@ -888,4 +888,59 @@ Text Label 3975 1615 0    50   ~ 0
 GND_BOTTOM
 Text Label 3855 6105 0    50   ~ 0
 GND_top
+$Comp
+L Connector_Generic:Conn_01x02 J6
+U 1 1 6199921A
+P 12125 3190
+F 0 "J6" H 12205 3182 50  0000 L CNN
+F 1 "Conn_01x02" H 12205 3091 50  0000 L CNN
+F 2 "IGBT-DRIVER-emad:IGBT_Socket" H 12125 3190 50  0001 C CNN
+F 3 "~" H 12125 3190 50  0001 C CNN
+	1    12125 3190
+	1    0    0    -1  
+$EndComp
+Text Label 11925 3190 2    50   ~ 0
+GATE_TOP
+Text Label 11925 3290 2    50   ~ 0
+EMITTER_TOP
+$Comp
+L Connector_Generic:Conn_01x02 J7
+U 1 1 619998BE
+P 12715 6300
+F 0 "J7" H 12795 6292 50  0000 L CNN
+F 1 "Conn_01x02" H 12795 6201 50  0000 L CNN
+F 2 "IGBT-DRIVER-emad:IGBT_Socket" H 12715 6300 50  0001 C CNN
+F 3 "~" H 12715 6300 50  0001 C CNN
+	1    12715 6300
+	1    0    0    -1  
+$EndComp
+Text Label 12515 6300 2    50   ~ 0
+GATE_BOTTOM
+Text Label 12515 6400 2    50   ~ 0
+EMITTER_BOTTOM
+$Comp
+L Graphic:SYM_Arrow45_Normal IGBTSymbol?
+U 1 1 619CFF89
+P 5455 2025
+AR Path="/6309618D/619CFF89" Ref="IGBTSymbol?"  Part="1" 
+AR Path="/6340E1F3/619CFF89" Ref="IGBTSymbol?"  Part="1" 
+AR Path="/619CFF89" Ref="IGBTSymbol1"  Part="1" 
+F 0 "IGBTSymbol1" H 5605 2075 50  0000 C CNN
+F 1 "SYM_Arrow45_Normal" H 5455 1925 50  0001 C CNN
+F 2 "IGBT-DRIVER-emad:skm200GB" H 5455 2025 50  0001 C CNN
+F 3 "~" H 5455 2025 50  0001 C CNN
+	1    5455 2025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 61C062DA
+P 4240 4430
+F 0 "H5" H 4340 4476 50  0000 L CNN
+F 1 "MountingHole" H 4340 4385 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3x6.2mm_M4_Pad_Via" H 4240 4430 50  0001 C CNN
+F 3 "~" H 4240 4430 50  0001 C CNN
+	1    4240 4430
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
