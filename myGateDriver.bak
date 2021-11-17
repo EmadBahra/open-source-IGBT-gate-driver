@@ -2153,12 +2153,12 @@ Connection ~ 3330 3365
 Text HLabel 2385 2985 1    50   Input ~ 0
 Vpp
 $Comp
-L Isolator:PC817 U1
+L Isolator:PC817 U?
 U 1 1 619BFFD4
 P 2585 10155
-AR Path="/6309618D/619BFFD4" Ref="U1"  Part="1" 
-AR Path="/6340E1F3/619BFFD4" Ref="U6"  Part="1" 
-F 0 "U6" H 2585 10480 50  0000 C CNN
+AR Path="/6309618D/619BFFD4" Ref="U?"  Part="1" 
+AR Path="/6340E1F3/619BFFD4" Ref="U?"  Part="1" 
+F 0 "U?" H 2585 10480 50  0000 C CNN
 F 1 "PC817" H 2585 10389 50  0000 C CNN
 F 2 "Package_DIP:DIP-4_W7.62mm" H 2385 9955 50  0001 L CIN
 F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 2585 10155 50  0001 L CNN
@@ -2182,10 +2182,10 @@ L Device:R R?
 U 1 1 619DAECB
 P 2110 10255
 AR Path="/619DAECB" Ref="R?"  Part="1" 
-AR Path="/6309618D/619DAECB" Ref="R20"  Part="1" 
+AR Path="/6309618D/619DAECB" Ref="R?"  Part="1" 
 AR Path="/63385DDA/619DAECB" Ref="R?"  Part="1" 
-AR Path="/6340E1F3/619DAECB" Ref="R23"  Part="1" 
-F 0 "R23" V 2110 10255 50  0000 C CNN
+AR Path="/6340E1F3/619DAECB" Ref="R?"  Part="1" 
+F 0 "R?" V 2110 10255 50  0000 C CNN
 F 1 "1k" V 2215 10260 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 2040 10255 50  0001 C CNN
 F 3 "~" H 2110 10255 50  0001 C CNN
