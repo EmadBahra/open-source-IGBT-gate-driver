@@ -1,0 +1,22 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# miw06-24s24
+#
+DEF miw06-24s24 U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "miw06-24s24" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -100 -50 600 -700 0 1 0 f
+X +Vout 14 700 -170 100 L 50 50 1 1 I
+X -Vout 16 700 -590 100 L 50 50 1 1 I
+X -Vin 2 -200 -500 100 R 50 50 1 1 I
+X +Vin 22 -200 -110 100 R 50 50 1 1 I
+X +Vin 23 -200 -260 100 R 50 50 1 1 I
+X -Vin 3 -200 -660 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

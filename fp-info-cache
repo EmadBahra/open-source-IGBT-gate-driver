@@ -1,4 +1,4 @@
-19230814767513185
+19239000532116041
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -51667,6 +51667,20 @@ heatsink
 2
 1
 IGBT-DRIVER-emad
+COOLERI
+
+
+0
+2
+1
+IGBT-DRIVER-emad
+DIOM7959X250N
+
+
+0
+2
+2
+IGBT-DRIVER-emad
 IGBT_Socket
 
 
@@ -51680,6 +51694,13 @@ MIWI06
 0
 8
 8
+IGBT-DRIVER-emad
+WJ250(mx250)-3.5
+
+
+0
+4
+4
 IGBT-DRIVER-emad
 fuse.holder.1808
 
@@ -76684,6 +76705,20 @@ LEM Hall Effect Voltage transducer
 0
 5
 5
+SnapEDA Library
+DIOM7959X250N
+
+
+0
+2
+2
+SnapEDA Library
+DIOM7959X262N
+
+
+0
+2
+2
 SnapEDA Library
 DIP762W50P254L977H451Q8
 

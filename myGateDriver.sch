@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:IGBT DRIVER-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 3 3
+Sheet 2 2
 Title ""
 Date ""
 Rev ""
@@ -62,16 +61,16 @@ $EndComp
 $Comp
 L Device:R R?
 U 1 1 630D95AE
-P 13985 4500
+P 13985 4645
 AR Path="/630D95AE" Ref="R?"  Part="1" 
 AR Path="/6309618D/630D95AE" Ref="R6"  Part="1" 
 AR Path="/63385DDA/630D95AE" Ref="R?"  Part="1" 
 AR Path="/6340E1F3/630D95AE" Ref="R16"  Part="1" 
-F 0 "R16" V 13985 4450 50  0000 L CNN
-F 1 "3.3k-1/4W" H 14055 4455 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 13915 4500 50  0001 C CNN
-F 3 "~" H 13985 4500 50  0001 C CNN
-	1    13985 4500
+F 0 "R16" V 13985 4595 50  0000 L CNN
+F 1 "1.8k" V 13860 4580 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 13915 4645 50  0001 C CNN
+F 3 "~" H 13985 4645 50  0001 C CNN
+	1    13985 4645
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -125,11 +124,9 @@ Wire Wire Line
 Wire Wire Line
 	13985 5320 13985 5575
 Wire Wire Line
-	13985 4650 13985 4820
+	13985 4795 13985 4820
 Wire Wire Line
 	14450 4655 14450 4725
-Wire Wire Line
-	13985 4350 13985 4250
 Wire Wire Line
 	14450 4250 14450 4355
 Wire Wire Line
@@ -186,72 +183,8 @@ F 3 "~" H 1875 8930 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1995 9130 2115 9130
-$Comp
-L Diode:1.5KExxA D?
-U 1 1 630D9605
-P 2390 1585
-AR Path="/630D9605" Ref="D?"  Part="1" 
-AR Path="/6309618D/630D9605" Ref="DStatic3"  Part="1" 
-AR Path="/63385DDA/630D9605" Ref="D?"  Part="1" 
-AR Path="/6340E1F3/630D9605" Ref="D18"  Part="1" 
-F 0 "D18" H 2390 1670 50  0000 C CNN
-F 1 "1.5KE160A" V 2390 1335 50  0000 C CNN
-F 2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" H 2390 1385 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 2340 1585 50  0001 C CNN
-	1    2390 1585
-	1    0    0    -1  
-$EndComp
-$Comp
-L Diode:1.5KExxA D?
-U 1 1 630D960B
-P 2725 1585
-AR Path="/630D960B" Ref="D?"  Part="1" 
-AR Path="/6309618D/630D960B" Ref="DStatic4"  Part="1" 
-AR Path="/63385DDA/630D960B" Ref="D?"  Part="1" 
-AR Path="/6340E1F3/630D960B" Ref="D19"  Part="1" 
-F 0 "D19" H 2725 1670 50  0000 C CNN
-F 1 "1.5KE160A" V 2725 1335 50  0000 C CNN
-F 2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" H 2725 1385 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 2675 1585 50  0001 C CNN
-	1    2725 1585
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	2575 1585 2540 1585
-Wire Wire Line
-	2240 1585 2165 1585
-Wire Wire Line
-	1865 1585 1790 1585
-$Comp
-L Diode:1.5KExxA D?
-U 1 1 630D9615
-P 2015 1585
-AR Path="/630D9615" Ref="D?"  Part="1" 
-AR Path="/6309618D/630D9615" Ref="DStatic2"  Part="1" 
-AR Path="/63385DDA/630D9615" Ref="D?"  Part="1" 
-AR Path="/6340E1F3/630D9615" Ref="D17"  Part="1" 
-F 0 "D17" H 2015 1675 50  0000 C CNN
-F 1 "1.5KE160A" V 2015 1335 50  0000 C CNN
-F 2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" H 2015 1385 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 1965 1585 50  0001 C CNN
-	1    2015 1585
-	1    0    0    -1  
-$EndComp
-$Comp
-L Diode:1.5KExxA D?
-U 1 1 630D961B
-P 1640 1585
-AR Path="/630D961B" Ref="D?"  Part="1" 
-AR Path="/6309618D/630D961B" Ref="DStatic1"  Part="1" 
-AR Path="/63385DDA/630D961B" Ref="D?"  Part="1" 
-AR Path="/6340E1F3/630D961B" Ref="D16"  Part="1" 
-F 0 "D16" H 1640 1670 50  0000 C CNN
-F 1 "1.5KE160A" V 1640 1320 50  0000 C CNN
-F 2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" H 1640 1385 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 1590 1585 50  0001 C CNN
-	1    1640 1585
-	1    0    0    -1  
-$EndComp
+	1920 1585 1890 1585
 $Comp
 L Device:R R?
 U 1 1 630D9621
@@ -420,7 +353,7 @@ AR Path="/63385DDA/630D9674" Ref="D?"  Part="1"
 AR Path="/6340E1F3/630D9674" Ref="D14"  Part="1" 
 F 0 "D14" H 5445 8485 50  0000 C CNN
 F 1 "Dz10v" H 5425 8665 50  0000 C CNN
-F 2 "Diode_THT:D_DO-201AD_P5.08mm_Vertical_AnodeUp" H 5465 8365 50  0001 C CNN
+F 2 "Diode_SMD:D_MELF" H 5465 8365 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 5415 8565 50  0001 C CNN
 	1    5465 8565
 	0    1    1    0   
@@ -435,7 +368,7 @@ AR Path="/63385DDA/630D967A" Ref="Rex?"  Part="1"
 AR Path="/6340E1F3/630D967A" Ref="Rex14"  Part="1" 
 F 0 "Rex14" V 5765 9050 50  0000 C CNN
 F 1 "1k" V 5675 9050 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5695 9060 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5695 9060 50  0001 C CNN
 F 3 "~" H 5765 9060 50  0001 C CNN
 	1    5765 9060
 	-1   0    0    1   
@@ -567,8 +500,6 @@ F 3 "~" H 5465 6260 50  0001 C CNN
 	1    5465 6260
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5465 8010 5465 6670
 Connection ~ 5465 8010
 $Comp
 L Transistor_BJT:BC807 Q?
@@ -694,7 +625,7 @@ AR Path="/63385DDA/630D9709" Ref="D?"  Part="1"
 AR Path="/6340E1F3/630D9709" Ref="D10"  Part="1" 
 F 0 "D10" H 3015 8855 50  0000 C CNN
 F 1 "Dz8v" H 2995 9035 50  0000 C CNN
-F 2 "Diode_THT:D_DO-201AD_P5.08mm_Vertical_AnodeUp" H 3035 8735 50  0001 C CNN
+F 2 "Diode_SMD:D_MELF" H 3035 8735 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 2985 8935 50  0001 C CNN
 	1    3035 8935
 	0    1    1    0   
@@ -831,7 +762,7 @@ AR Path="/63385DDA/630D9754" Ref="D?"  Part="1"
 AR Path="/6340E1F3/630D9754" Ref="D13"  Part="1" 
 F 0 "D13" H 5465 6010 50  0000 C CNN
 F 1 "BYV26E" V 5465 5690 50  0000 C CNN
-F 2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" H 5465 5910 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5465 5910 50  0001 C CNN
 F 3 "~" H 5465 5910 50  0001 C CNN
 F 4 "Y" H 5465 5910 50  0001 L CNN "Spice_Netlist_Enabled"
 F 5 "D" H 5465 5910 50  0001 L CNN "Spice_Primitive"
@@ -840,41 +771,6 @@ F 5 "D" H 5465 5910 50  0001 L CNN "Spice_Primitive"
 $EndComp
 Wire Wire Line
 	5465 6110 5465 6060
-$Comp
-L power:GNDPWR #PWR?
-U 1 1 630D975B
-P 5005 6670
-AR Path="/630D975B" Ref="#PWR?"  Part="1" 
-AR Path="/6309618D/630D975B" Ref="#PWR04"  Part="1" 
-AR Path="/63385DDA/630D975B" Ref="#PWR?"  Part="1" 
-AR Path="/6340E1F3/630D975B" Ref="#PWR013"  Part="1" 
-F 0 "#PWR013" H 5005 6470 50  0001 C CNN
-F 1 "GNDPWR" H 5000 6720 50  0000 C CNN
-F 2 "" H 5005 6620 50  0001 C CNN
-F 3 "" H 5005 6620 50  0001 C CNN
-	1    5005 6670
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5005 6670 5105 6670
-$Comp
-L Diode:1.5KExxA D?
-U 1 1 630D9762
-P 5255 6670
-AR Path="/630D9762" Ref="D?"  Part="1" 
-AR Path="/6309618D/630D9762" Ref="D4"  Part="1" 
-AR Path="/63385DDA/630D9762" Ref="D?"  Part="1" 
-AR Path="/6340E1F3/630D9762" Ref="D11"  Part="1" 
-F 0 "D11" H 5255 6887 50  0000 C CNN
-F 1 "1.5KE14A" H 5255 6796 50  0000 C CNN
-F 2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" H 5255 6470 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 5205 6670 50  0001 C CNN
-	1    5255 6670
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5405 6670 5465 6670
-Connection ~ 5465 6670
 Wire Wire Line
 	4755 7385 4755 7570
 Wire Wire Line
@@ -911,80 +807,6 @@ F 3 "~" H 13095 7850 50  0001 C CNN
 	1    13095 7850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2915 1585 2875 1585
-Wire Wire Line
-	3370 730  3320 730 
-Wire Wire Line
-	3670 730  3755 730 
-Wire Wire Line
-	3755 1020 3755 850 
-Wire Wire Line
-	3320 1020 3320 845 
-Wire Wire Line
-	3680 1020 3755 1020
-Wire Wire Line
-	3320 1020 3380 1020
-$Comp
-L Device:C C?
-U 1 1 630D97E2
-P 3530 1020
-AR Path="/630D97E2" Ref="C?"  Part="1" 
-AR Path="/6309618D/630D97E2" Ref="CDynamic1"  Part="1" 
-AR Path="/63385DDA/630D97E2" Ref="C?"  Part="1" 
-AR Path="/6340E1F3/630D97E2" Ref="C12"  Part="1" 
-F 0 "C12" V 3645 1015 50  0000 C CNN
-F 1 "100nF" V 3369 1020 50  0000 C CNN
-F 2 "Capacitor_THT:C_Rect_L16.5mm_W6.0mm_P15.00mm_MKT" H 3568 870 50  0001 C CNN
-F 3 "~" H 3530 1020 50  0001 C CNN
-	1    3530 1020
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 630D97E8
-P 3520 730
-AR Path="/630D97E8" Ref="R?"  Part="1" 
-AR Path="/6309618D/630D97E8" Ref="RDynamic1"  Part="1" 
-AR Path="/63385DDA/630D97E8" Ref="R?"  Part="1" 
-AR Path="/6340E1F3/630D97E8" Ref="R14"  Part="1" 
-F 0 "R14" V 3600 735 50  0000 C CNN
-F 1 "20K" V 3515 730 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3450 730 50  0001 C CNN
-F 3 "~" H 3520 730 50  0001 C CNN
-	1    3520 730 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1.5KExxA D?
-U 1 1 630D97EE
-P 3535 1585
-AR Path="/630D97EE" Ref="D?"  Part="1" 
-AR Path="/6309618D/630D97EE" Ref="DzDynamic1"  Part="1" 
-AR Path="/63385DDA/630D97EE" Ref="D?"  Part="1" 
-AR Path="/6340E1F3/630D97EE" Ref="D21"  Part="1" 
-F 0 "D21" H 3535 1802 50  0000 C CNN
-F 1 "1.5KE160A" H 3535 1711 50  0000 C CNN
-F 2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" H 3535 1385 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 3485 1585 50  0001 C CNN
-	1    3535 1585
-	1    0    0    -1  
-$EndComp
-$Comp
-L Diode:1.5KExxA D?
-U 1 1 630D97F4
-P 3065 1585
-AR Path="/630D97F4" Ref="D?"  Part="1" 
-AR Path="/6309618D/630D97F4" Ref="DStatic5"  Part="1" 
-AR Path="/63385DDA/630D97F4" Ref="D?"  Part="1" 
-AR Path="/6340E1F3/630D97F4" Ref="D20"  Part="1" 
-F 0 "D20" H 3065 1670 50  0000 C CNN
-F 1 "1.5KE160A" V 3065 1325 50  0000 C CNN
-F 2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" H 3065 1385 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 3015 1585 50  0001 C CNN
-	1    3065 1585
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R R?
 U 1 1 630D9801
@@ -1015,8 +837,6 @@ Connection ~ 6260 8310
 Wire Wire Line
 	5765 7655 5765 7705
 Wire Wire Line
-	4320 1585 4525 1585
-Wire Wire Line
 	2880 9555 2880 8930
 Wire Wire Line
 	2880 8930 2715 8930
@@ -1025,8 +845,6 @@ Wire Wire Line
 Wire Wire Line
 	14225 4185 14225 4250
 Connection ~ 14225 4250
-Wire Wire Line
-	14225 4250 13985 4250
 Text HLabel 1385 8930 0    50   Input ~ 0
 Pulse
 Wire Wire Line
@@ -1066,7 +884,7 @@ Wire Wire Line
 Connection ~ 5765 8590
 Wire Wire Line
 	5765 8590 5765 8840
-Text HLabel 6310 7905 2    50   Input ~ 0
+Text HLabel 2280 10600 0    50   Input ~ 0
 ~Fault
 Wire Wire Line
 	6310 7905 6260 7905
@@ -1075,7 +893,7 @@ Text HLabel 3450 8245 1    50   Input ~ 0
 Emitter
 Text HLabel 13995 7850 2    50   Input ~ 0
 Gate
-Text HLabel 1100 1585 0    50   Input ~ 0
+Text HLabel 955  1585 0    50   Input ~ 0
 Collector
 $Comp
 L Device:D_Schottky Dex?
@@ -1131,8 +949,8 @@ P 2580 9655
 AR Path="/6309618D/633D0799" Ref="U3"  Part="1" 
 AR Path="/6340E1F3/633D0799" Ref="U5"  Part="1" 
 F 0 "U5" H 2580 9980 50  0000 C CNN
-F 1 "PC817" H 2580 9889 50  0000 C CNN
-F 2 "Package_DIP:DIP-4_W7.62mm" H 2380 9455 50  0001 L CIN
+F 1 "ps2801" H 2580 9889 50  0000 C CNN
+F 2 "SOP-4_4.4x2.6mm_P1.27mm" H 2380 9455 50  0001 L CIN
 F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 2580 9655 50  0001 L CNN
 	1    2580 9655
 	1    0    0    -1  
@@ -1304,81 +1122,23 @@ F 3 "~" H 12755 8460 50  0001 C CNN
 $EndComp
 Text Notes 15270 8670 2    50   ~ 0
 Zener diodes in gate drive circuits may cause oscillations\nso I used diode  for clamping gate voltages
-Text HLabel 8005 3650 1    50   Input ~ 0
-Vpp
 $Comp
 L Diode:BZX84Cxx D?
 U 1 1 61958594
-P 8005 4040
+P 7850 3930
 AR Path="/61958594" Ref="D?"  Part="1" 
 AR Path="/6309618D/61958594" Ref="D7"  Part="1" 
 AR Path="/63385DDA/61958594" Ref="D?"  Part="1" 
 AR Path="/6340E1F3/61958594" Ref="D15"  Part="1" 
-F 0 "D15" V 7920 3995 50  0000 L CNN
-F 1 "26v TVS" V 8100 3885 50  0000 L CNN
-F 2 "Diode_SMD:D_MELF" H 8005 3865 50  0001 C CNN
-F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf" H 8005 4040 50  0001 C CNN
-	1    8005 4040
+F 0 "D15" V 7765 3885 50  0000 L CNN
+F 1 "26v Zener" V 7945 3775 50  0000 L CNN
+F 2 "Diode_SMD:D_MELF" H 7850 3755 50  0001 C CNN
+F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf" H 7850 3930 50  0001 C CNN
+	1    7850 3930
 	0    -1   1    0   
 $EndComp
-Text HLabel 8005 4380 3    50   Input ~ 0
+Text HLabel 7850 4270 3    50   Input ~ 0
 GND-p
-Wire Wire Line
-	8005 4190 8005 4290
-Wire Wire Line
-	8005 3650 8005 3820
-$Comp
-L Device:C C?
-U 1 1 619A6A28
-P 8500 4050
-AR Path="/619A6A28" Ref="C?"  Part="1" 
-AR Path="/6309618D/619A6A28" Ref="C22"  Part="1" 
-AR Path="/63385DDA/619A6A28" Ref="C?"  Part="1" 
-AR Path="/6340E1F3/619A6A28" Ref="C24"  Part="1" 
-F 0 "C24" H 8505 3985 50  0000 C CNN
-F 1 "100nF" H 8480 4135 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 8538 3900 50  0001 C CNN
-F 3 "~" H 8500 4050 50  0001 C CNN
-	1    8500 4050
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:CP C?
-U 1 1 619A742B
-P 7530 4050
-AR Path="/619A742B" Ref="C?"  Part="1" 
-AR Path="/6309618D/619A742B" Ref="C21"  Part="1" 
-AR Path="/63385DDA/619A742B" Ref="C?"  Part="1" 
-AR Path="/6340E1F3/619A742B" Ref="C23"  Part="1" 
-F 0 "C23" H 7525 4125 50  0000 C CNN
-F 1 "47uf/35v" H 7520 3965 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm" H 7568 3900 50  0001 C CNN
-F 3 "~" H 7530 4050 50  0001 C CNN
-	1    7530 4050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7530 3900 7530 3820
-Wire Wire Line
-	7530 3820 7865 3820
-Connection ~ 8005 3820
-Wire Wire Line
-	8005 3820 8005 3890
-Wire Wire Line
-	8005 3820 8500 3820
-Wire Wire Line
-	8500 3820 8500 3900
-Wire Wire Line
-	8500 4200 8500 4290
-Wire Wire Line
-	8500 4290 8005 4290
-Connection ~ 8005 4290
-Wire Wire Line
-	8005 4290 8005 4380
-Wire Wire Line
-	8005 4290 7530 4290
-Wire Wire Line
-	7530 4290 7530 4200
 $Comp
 L Transistor_BJT:BC817 Q?
 U 1 1 619F7C8A
@@ -1553,26 +1313,10 @@ Wire Wire Line
 Wire Wire Line
 	3215 1585 3280 1585
 Wire Wire Line
-	3685 1585 3830 1585
-Wire Wire Line
-	3280 1585 3280 845 
-Wire Wire Line
-	3280 845  3320 845 
+	3740 1585 3830 1585
 Connection ~ 3280 1585
 Wire Wire Line
-	3280 1585 3385 1585
-Connection ~ 3320 845 
-Wire Wire Line
-	3320 845  3320 730 
-Wire Wire Line
-	3755 850  3830 850 
-Wire Wire Line
-	3830 850  3830 1585
-Connection ~ 3755 850 
-Wire Wire Line
-	3755 850  3755 730 
-Wire Wire Line
-	5465 6410 5465 6670
+	3280 1585 3340 1585
 Wire Wire Line
 	11270 7225 11270 7355
 Wire Wire Line
@@ -1580,29 +1324,10 @@ Wire Wire Line
 Text Label 11850 7825 0    50   ~ 0
 Control
 Connection ~ 3830 1585
-Wire Wire Line
-	4825 1585 4920 1585
 Text Label 13435 7850 0    50   ~ 0
 Gate
-Text Label 4920 1585 0    50   ~ 0
+Text Label 4620 1585 0    50   ~ 0
 Gate
-$Comp
-L Diode:1.5KExxA D?
-U 1 1 61A66FE0
-P 4675 1585
-AR Path="/61A66FE0" Ref="D?"  Part="1" 
-AR Path="/6309618D/61A66FE0" Ref="D6"  Part="1" 
-AR Path="/63385DDA/61A66FE0" Ref="D?"  Part="1" 
-AR Path="/6340E1F3/61A66FE0" Ref="D12"  Part="1" 
-F 0 "D12" H 4675 1802 50  0000 C CNN
-F 1 "1.5KE6V8A" H 4675 1711 50  0000 C CNN
-F 2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" H 4675 1385 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 4625 1585 50  0001 C CNN
-	1    4675 1585
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1100 1585 1490 1585
 Text HLabel 5465 5695 1    50   Input ~ 0
 Collector
 Wire Wire Line
@@ -1617,7 +1342,7 @@ Wire Notes Line
 	6095 2205 6095 495 
 Wire Notes Line
 	500  495  6095 495 
-Text HLabel 7470 3540 0    50   Input ~ 0
+Text HLabel 7410 3540 0    50   Input ~ 0
 Vin
 $Comp
 L Device:Fuse F2
@@ -1627,20 +1352,11 @@ AR Path="/6309618D/61AD0B07" Ref="F2"  Part="1"
 AR Path="/6340E1F3/61AD0B07" Ref="F4"  Part="1" 
 F 0 "F4" V 7468 3540 50  0000 C CNN
 F 1 "Fuse" V 7559 3540 50  0000 C CNN
-F 2 "Fuse:Fuse_Schurter_UMZ250" V 7595 3540 50  0001 C CNN
+F 2 "IGBT-DRIVER-emad:fuse.holder.1808" V 7595 3540 50  0001 C CNN
 F 3 "~" H 7665 3540 50  0001 C CNN
 	1    7665 3540
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	7470 3540 7515 3540
-Wire Wire Line
-	7815 3540 7865 3540
-Wire Wire Line
-	7865 3540 7865 3820
-Connection ~ 7865 3820
-Wire Wire Line
-	7865 3820 8005 3820
 Wire Wire Line
 	13195 7850 13435 7850
 Text Label 10515 3990 0    50   ~ 0
@@ -2152,19 +1868,6 @@ Wire Wire Line
 Connection ~ 3330 3365
 Text HLabel 2385 2985 1    50   Input ~ 0
 Vpp
-$Comp
-L Isolator:PC817 U1
-U 1 1 619BFFD4
-P 2585 10155
-AR Path="/6309618D/619BFFD4" Ref="U1"  Part="1" 
-AR Path="/6340E1F3/619BFFD4" Ref="U6"  Part="1" 
-F 0 "U6" H 2585 10480 50  0000 C CNN
-F 1 "PC817" H 2585 10389 50  0000 C CNN
-F 2 "Package_DIP:DIP-4_W7.62mm" H 2385 9955 50  0001 L CIN
-F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 2585 10155 50  0001 L CNN
-	1    2585 10155
-	1    0    0    1   
-$EndComp
 Text HLabel 2260 10055 0    50   Input ~ 0
 ~Reset
 Text HLabel 2885 10255 2    50   Input ~ 0
@@ -2196,4 +1899,265 @@ Wire Wire Line
 	1935 10255 1960 10255
 Wire Wire Line
 	2260 10255 2285 10255
+$Comp
+L SMCJ160CA-13-F:SMCJ160CA-13-F D17
+U 1 1 61975FEE
+P 1690 1585
+AR Path="/6309618D/61975FEE" Ref="D17"  Part="1" 
+AR Path="/6340E1F3/61975FEE" Ref="D24"  Part="1" 
+F 0 "D24" H 1690 1802 50  0000 C CNN
+F 1 "SMCJ160CA-13-F" V 1680 1165 50  0000 C CNN
+F 2 "IGBT-DRIVER-emad:DIOM7959X250N" H 1690 1585 50  0001 L BNN
+F 3 "" H 1690 1585 50  0001 L BNN
+F 4 "Diodes Incorporated" H 1690 1585 50  0001 L BNN "MANUFACTURER"
+F 5 "IPC-7351B" H 1690 1585 50  0001 L BNN "STANDARD"
+F 6 "2.5mm" H 1690 1585 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 7 "5-2" H 1690 1585 50  0001 L BNN "PARTREV"
+	1    1690 1585
+	1    0    0    -1  
+$EndComp
+$Comp
+L SMCJ160CA-13-F:SMCJ160CA-13-F D18
+U 1 1 619BC26F
+P 2120 1585
+AR Path="/6309618D/619BC26F" Ref="D18"  Part="1" 
+AR Path="/6340E1F3/619BC26F" Ref="D25"  Part="1" 
+F 0 "D25" H 2120 1802 50  0000 C CNN
+F 1 "SMCJ160CA-13-F" V 2110 1165 50  0000 C CNN
+F 2 "IGBT-DRIVER-emad:DIOM7959X250N" H 2120 1585 50  0001 L BNN
+F 3 "" H 2120 1585 50  0001 L BNN
+F 4 "Diodes Incorporated" H 2120 1585 50  0001 L BNN "MANUFACTURER"
+F 5 "IPC-7351B" H 2120 1585 50  0001 L BNN "STANDARD"
+F 6 "2.5mm" H 2120 1585 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 7 "5-2" H 2120 1585 50  0001 L BNN "PARTREV"
+	1    2120 1585
+	1    0    0    -1  
+$EndComp
+$Comp
+L SMCJ160CA-13-F:SMCJ160CA-13-F D19
+U 1 1 619D38C1
+P 2570 1585
+AR Path="/6309618D/619D38C1" Ref="D19"  Part="1" 
+AR Path="/6340E1F3/619D38C1" Ref="D26"  Part="1" 
+F 0 "D26" H 2570 1802 50  0000 C CNN
+F 1 "SMCJ160CA-13-F" V 2560 1165 50  0000 C CNN
+F 2 "IGBT-DRIVER-emad:DIOM7959X250N" H 2570 1585 50  0001 L BNN
+F 3 "" H 2570 1585 50  0001 L BNN
+F 4 "Diodes Incorporated" H 2570 1585 50  0001 L BNN "MANUFACTURER"
+F 5 "IPC-7351B" H 2570 1585 50  0001 L BNN "STANDARD"
+F 6 "2.5mm" H 2570 1585 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 7 "5-2" H 2570 1585 50  0001 L BNN "PARTREV"
+	1    2570 1585
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2320 1585 2370 1585
+$Comp
+L SMCJ160CA-13-F:SMCJ160CA-13-F D20
+U 1 1 619EB3B3
+P 3015 1585
+AR Path="/6309618D/619EB3B3" Ref="D20"  Part="1" 
+AR Path="/6340E1F3/619EB3B3" Ref="D27"  Part="1" 
+F 0 "D27" H 3015 1802 50  0000 C CNN
+F 1 "SMCJ160CA-13-F" V 3005 1165 50  0000 C CNN
+F 2 "IGBT-DRIVER-emad:DIOM7959X250N" H 3015 1585 50  0001 L BNN
+F 3 "" H 3015 1585 50  0001 L BNN
+F 4 "Diodes Incorporated" H 3015 1585 50  0001 L BNN "MANUFACTURER"
+F 5 "IPC-7351B" H 3015 1585 50  0001 L BNN "STANDARD"
+F 6 "2.5mm" H 3015 1585 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 7 "5-2" H 3015 1585 50  0001 L BNN "PARTREV"
+	1    3015 1585
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2815 1585 2770 1585
+$Comp
+L SMCJ160CA-13-F:SMCJ160CA-13-F D16
+U 1 1 61A5FFEF
+P 1240 1585
+AR Path="/6309618D/61A5FFEF" Ref="D16"  Part="1" 
+AR Path="/6340E1F3/61A5FFEF" Ref="D23"  Part="1" 
+F 0 "D23" H 1240 1802 50  0000 C CNN
+F 1 "SMCJ160CA-13-F" V 1230 1165 50  0000 C CNN
+F 2 "IGBT-DRIVER-emad:DIOM7959X250N" H 1240 1585 50  0001 L BNN
+F 3 "" H 1240 1585 50  0001 L BNN
+F 4 "Diodes Incorporated" H 1240 1585 50  0001 L BNN "MANUFACTURER"
+F 5 "IPC-7351B" H 1240 1585 50  0001 L BNN "STANDARD"
+F 6 "2.5mm" H 1240 1585 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 7 "5-2" H 1240 1585 50  0001 L BNN "PARTREV"
+	1    1240 1585
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1490 1585 1440 1585
+Wire Wire Line
+	1040 1585 955  1585
+$Comp
+L SMCJ160CA-13-F:SMCJ160CA-13-F D21
+U 1 1 61ABED68
+P 3540 1585
+AR Path="/6309618D/61ABED68" Ref="D21"  Part="1" 
+AR Path="/6340E1F3/61ABED68" Ref="D28"  Part="1" 
+F 0 "D28" H 3540 1802 50  0000 C CNN
+F 1 "SMCJ160CA-13-F" V 3530 1165 50  0000 C CNN
+F 2 "IGBT-DRIVER-emad:DIOM7959X250N" H 3540 1585 50  0001 L BNN
+F 3 "" H 3540 1585 50  0001 L BNN
+F 4 "Diodes Incorporated" H 3540 1585 50  0001 L BNN "MANUFACTURER"
+F 5 "IPC-7351B" H 3540 1585 50  0001 L BNN "STANDARD"
+F 6 "2.5mm" H 3540 1585 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 7 "5-2" H 3540 1585 50  0001 L BNN "PARTREV"
+	1    3540 1585
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4320 1585 4620 1585
+Wire Wire Line
+	3755 850  3755 730 
+Connection ~ 3755 850 
+Wire Wire Line
+	3830 850  3830 1585
+Wire Wire Line
+	3755 850  3830 850 
+Wire Wire Line
+	3320 845  3320 730 
+Connection ~ 3320 845 
+Wire Wire Line
+	3280 845  3320 845 
+Wire Wire Line
+	3280 1585 3280 845 
+$Comp
+L Device:C C?
+U 1 1 630D97E2
+P 3530 1020
+AR Path="/630D97E2" Ref="C?"  Part="1" 
+AR Path="/6309618D/630D97E2" Ref="CDynamic1"  Part="1" 
+AR Path="/63385DDA/630D97E2" Ref="C?"  Part="1" 
+AR Path="/6340E1F3/630D97E2" Ref="C12"  Part="1" 
+F 0 "C12" V 3645 1015 50  0000 C CNN
+F 1 "100nF 250v" V 3369 1020 50  0000 C CNN
+F 2 "Capacitor_THT:C_Rect_L13.0mm_W4.0mm_P10.00mm_FKS3_FKP3_MKS4" H 3568 870 50  0001 C CNN
+F 3 "https://www.snapeda.com/parts/MKS4F031003C00KSSD/WIMA/datasheet/?ref=kicad" H 3530 1020 50  0001 C CNN
+	1    3530 1020
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3320 1020 3380 1020
+Wire Wire Line
+	3680 1020 3755 1020
+Wire Wire Line
+	3320 1020 3320 845 
+Wire Wire Line
+	3755 1020 3755 850 
+Wire Wire Line
+	3670 730  3755 730 
+Wire Wire Line
+	3370 730  3320 730 
+$Comp
+L Device:R R?
+U 1 1 630D97E8
+P 3520 730
+AR Path="/630D97E8" Ref="R?"  Part="1" 
+AR Path="/6309618D/630D97E8" Ref="RDynamic1"  Part="1" 
+AR Path="/63385DDA/630D97E8" Ref="R?"  Part="1" 
+AR Path="/6340E1F3/630D97E8" Ref="R14"  Part="1" 
+F 0 "R14" V 3600 735 50  0000 C CNN
+F 1 "20K" V 3515 730 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3450 730 50  0001 C CNN
+F 3 "~" H 3520 730 50  0001 C CNN
+	1    3520 730 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5465 6410 5465 8010
+Wire Wire Line
+	7410 3540 7515 3540
+Text HLabel 7910 3535 1    50   Input ~ 0
+Vpp
+Wire Wire Line
+	7910 3535 7910 3540
+Wire Wire Line
+	7910 3540 7850 3540
+$Comp
+L Isolator:PC817 U1
+U 1 1 619BFFD4
+P 2585 10155
+AR Path="/6309618D/619BFFD4" Ref="U1"  Part="1" 
+AR Path="/6340E1F3/619BFFD4" Ref="U6"  Part="1" 
+F 0 "U6" H 2585 10480 50  0000 C CNN
+F 1 "ps2801" H 2585 10389 50  0000 C CNN
+F 2 "SOP-4_4.4x2.6mm_P1.27mm" H 2385 9955 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 2585 10155 50  0001 L CNN
+	1    2585 10155
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	7850 3540 7850 3780
+Wire Wire Line
+	7850 4080 7850 4270
+Connection ~ 7850 3540
+Wire Wire Line
+	7850 3540 7815 3540
+$Comp
+L Device:R R?
+U 1 1 6201A0A0
+P 13880 4400
+AR Path="/6201A0A0" Ref="R?"  Part="1" 
+AR Path="/6309618D/6201A0A0" Ref="R?"  Part="1" 
+AR Path="/63385DDA/6201A0A0" Ref="R?"  Part="1" 
+AR Path="/6340E1F3/6201A0A0" Ref="R6"  Part="1" 
+F 0 "R6" V 13880 4350 50  0000 L CNN
+F 1 "1.5k" V 13755 4335 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 13810 4400 50  0001 C CNN
+F 3 "~" H 13880 4400 50  0001 C CNN
+	1    13880 4400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	13880 4250 14225 4250
+Wire Wire Line
+	13880 4550 13935 4550
+Wire Wire Line
+	13935 4550 13935 4495
+Wire Wire Line
+	13935 4495 13985 4495
+Text Label 6310 7905 0    50   ~ 0
+fault
+Text Label 3205 10600 0    50   ~ 0
+fault
+Text HLabel 2905 10800 2    50   Input ~ 0
+GND-p
+Wire Wire Line
+	2280 10600 2305 10600
+Wire Wire Line
+	2280 10800 2305 10800
+$Comp
+L Isolator:PC817 U?
+U 1 1 62050520
+P 2605 10700
+AR Path="/6309618D/62050520" Ref="U?"  Part="1" 
+AR Path="/6340E1F3/62050520" Ref="U?"  Part="1" 
+F 0 "U?" H 2605 11025 50  0000 C CNN
+F 1 "ps2801" H 2605 10934 50  0000 C CNN
+F 2 "SOP-4_4.4x2.6mm_P1.27mm" H 2405 10500 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 2605 10700 50  0001 L CNN
+	1    2605 10700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R Rex?
+U 1 1 6207C6A9
+P 3055 10600
+AR Path="/6207C6A9" Ref="Rex?"  Part="1" 
+AR Path="/6309618D/6207C6A9" Ref="Rex?"  Part="1" 
+AR Path="/63385DDA/6207C6A9" Ref="Rex?"  Part="1" 
+AR Path="/6340E1F3/6207C6A9" Ref="Rex?"  Part="1" 
+F 0 "Rex?" V 3155 10580 50  0000 C CNN
+F 1 "1k" V 2965 10590 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2985 10600 50  0001 C CNN
+F 3 "~" H 3055 10600 50  0001 C CNN
+	1    3055 10600
+	0    -1   -1   0   
+$EndComp
+Text HLabel 2280 10800 0    50   Input ~ 0
+GND-d
 $EndSCHEMATC

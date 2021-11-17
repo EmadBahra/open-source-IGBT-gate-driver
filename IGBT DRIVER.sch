@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:IGBT DRIVER-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 3
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -50,19 +49,9 @@ Wire Wire Line
 	1885 1135 2135 1135
 Connection ~ 1885 1135
 Wire Wire Line
-	3790 1615 3790 1575
+	4170 1615 4170 1575
 Wire Wire Line
-	3790 1195 3790 1275
-Wire Wire Line
-	3475 1555 3475 1615
-Connection ~ 3475 1615
-Wire Wire Line
-	3475 1615 3790 1615
-Wire Wire Line
-	3475 1195 3475 1255
-Wire Wire Line
-	3305 1195 3475 1195
-Connection ~ 3475 1195
+	4170 1195 4170 1275
 $Comp
 L power:+15V #PWR03
 U 1 1 61625A8E
@@ -104,17 +93,17 @@ F 3 "" H 1455 1685 50  0001 C CNN
 $EndComp
 Connection ~ 1455 1685
 Wire Wire Line
-	4520 1195 4520 1265
+	4900 1195 4900 1265
 Wire Wire Line
-	4520 1565 4520 1615
+	4900 1565 4900 1615
 Wire Wire Line
-	4520 1615 4235 1615
+	4900 1615 4615 1615
 Wire Wire Line
-	4235 1565 4235 1615
+	4615 1565 4615 1615
 Wire Wire Line
-	4235 1195 4520 1195
+	4615 1195 4900 1195
 Wire Wire Line
-	4235 1195 4235 1265
+	4615 1195 4615 1265
 Wire Wire Line
 	1455 1040 1455 1135
 Connection ~ 2135 1685
@@ -141,45 +130,34 @@ $EndComp
 $Comp
 L Device:C C13
 U 1 1 615E1B36
-P 4520 1415
-F 0 "C13" H 4495 1320 50  0000 C CNN
-F 1 "100nF" V 4630 1415 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 4558 1265 50  0001 C CNN
-F 3 "~" H 4520 1415 50  0001 C CNN
-	1    4520 1415
+P 4900 1415
+F 0 "C13" H 4875 1320 50  0000 C CNN
+F 1 "100nF" V 5010 1415 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 4938 1265 50  0001 C CNN
+F 3 "~" H 4900 1415 50  0001 C CNN
+	1    4900 1415
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:C C11
 U 1 1 615E0997
-P 4235 1415
-F 0 "C11" H 4255 1330 50  0000 C CNN
-F 1 "1uF" V 4350 1415 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 4273 1265 50  0001 C CNN
-F 3 "~" H 4235 1415 50  0001 C CNN
-	1    4235 1415
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R4
-U 1 1 615A8A09
-P 3475 1405
-F 0 "R4" V 3470 1450 50  0000 R CNN
-F 1 "2k/1w" V 3385 1530 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P7.62mm_Vertical" V 3405 1405 50  0001 C CNN
-F 3 "~" H 3475 1405 50  0001 C CNN
-	1    3475 1405
+P 4615 1415
+F 0 "C11" H 4635 1330 50  0000 C CNN
+F 1 "1uF" V 4730 1415 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 4653 1265 50  0001 C CNN
+F 3 "~" H 4615 1415 50  0001 C CNN
+	1    4615 1415
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:CP C7
 U 1 1 6159A404
-P 3790 1425
-F 0 "C7" H 3908 1471 50  0000 L CNN
-F 1 "10uf/35v" H 3655 1330 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 3828 1275 50  0001 C CNN
-F 3 "~" H 3790 1425 50  0001 C CNN
-	1    3790 1425
+P 4170 1425
+F 0 "C7" H 4288 1471 50  0000 L CNN
+F 1 "10uf/35v" H 4035 1330 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 4208 1275 50  0001 C CNN
+F 3 "~" H 4170 1425 50  0001 C CNN
+	1    4170 1425
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -282,17 +260,6 @@ F 3 "~" H 1455 1445 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IGBT-DRIVER-rescue:miw06-24s24-GH-kicad U1
-U 1 1 6156C075
-P 2605 1025
-F 0 "U1" H 2855 1140 50  0000 C CNN
-F 1 "miw06-24s24" H 2855 1049 50  0000 C CNN
-F 2 "IGBT-DRIVER-emad:MIWI06" H 2605 1025 50  0001 C CNN
-F 3 "" H 2605 1025 50  0001 C CNN
-	1    2605 1025
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:LED D9
 U 1 1 6196EC2F
 P 5895 1640
@@ -314,8 +281,6 @@ F 3 "~" H 5895 1305 50  0001 C CNN
 	1    5895 1305
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	3475 1195 3790 1195
 Wire Notes Line width 12 style solid
 	6250 780  650  780 
 Wire Notes Line width 12 style solid
@@ -324,8 +289,6 @@ Wire Notes Line width 12 style solid
 	650  4565 6250 4565
 Wire Notes Line width 12 style solid
 	6250 780  6250 4565
-Wire Wire Line
-	3305 1615 3475 1615
 $Comp
 L power:GNDPWR #PWR012
 U 1 1 61D5AC05
@@ -437,25 +400,6 @@ Wire Wire Line
 	5595 3285 5445 3285
 Wire Wire Line
 	4575 3285 4515 3285
-$Sheet
-S 9080 2810 1010 1805
-U 6309618D
-F0 "Gate Driver Top" 50
-F1 "myGateDriver.sch" 50
-F2 "Pulse" I L 9080 3170 50 
-F3 "Vpp" I R 10090 2860 50 
-F4 "GND-d" I L 9080 3345 50 
-F5 "Pulse-Disable" I R 10090 3000 50 
-F6 "GND-p" I R 10090 4445 50 
-F7 "Emitter" I R 10090 3965 50 
-F8 "Gate" I R 10090 3795 50 
-F9 "Collector" I R 10090 3605 50 
-F10 "~Reset" I R 10090 3200 50 
-F11 "~Fault" I R 10090 3395 50 
-F12 "~its-ON" I R 10090 4195 50 
-F13 "Pulse-Disable+" I L 9080 3715 50 
-F14 "Pulse-Disable-" I L 9080 3855 50 
-$EndSheet
 $Comp
 L Connector:Screw_Terminal_01x01 J3
 U 1 1 6332A6B1
@@ -485,10 +429,6 @@ Text Label 10550 3200 2    50   ~ 0
 Reset_top
 Wire Wire Line
 	10090 3200 10550 3200
-Text Label 10550 2860 2    50   ~ 0
-VCC_top
-Wire Wire Line
-	10090 2860 10550 2860
 Text Label 10550 4445 2    50   ~ 0
 GND_top
 Wire Wire Line
@@ -527,10 +467,10 @@ Text Label 10775 6045 2    50   ~ 0
 Reset_BOTTOM
 Wire Wire Line
 	10135 6045 10775 6045
-Text Label 10690 5705 2    50   ~ 0
+Text Label 8550 5710 0    50   ~ 0
 VCC_BOTTOM
 Wire Wire Line
-	10135 5705 10690 5705
+	9125 5710 8550 5710
 Text Label 10775 7290 2    50   ~ 0
 GND_BOTTOM
 Wire Wire Line
@@ -582,6 +522,7 @@ F11 "~Fault" I R 10135 6240 50
 F12 "~its-ON" I R 10135 7040 50 
 F13 "Pulse-Disable+" I L 9125 6560 50 
 F14 "Pulse-Disable-" I L 9125 6700 50 
+F15 "Vin" I L 9125 5710 50 
 $EndSheet
 Text Label 8585 3855 0    50   ~ 0
 GND_BOTTOM
@@ -598,13 +539,13 @@ On_TOP
 Text Label 8550 6700 0    50   ~ 0
 GND_top
 Wire Wire Line
-	3790 1195 4235 1195
-Connection ~ 3790 1195
-Connection ~ 4235 1195
+	4170 1195 4615 1195
+Connection ~ 4170 1195
+Connection ~ 4615 1195
 Wire Wire Line
-	4235 1615 3790 1615
-Connection ~ 4235 1615
-Connection ~ 3790 1615
+	4615 1615 4170 1615
+Connection ~ 4615 1615
+Connection ~ 4170 1615
 $Comp
 L power:+15V #PWR0101
 U 1 1 61C3BF95
@@ -767,17 +708,6 @@ F 3 "~" H 1520 5935 50  0001 C CNN
 	1    1520 5935
 	1    0    0    -1  
 $EndComp
-$Comp
-L IGBT-DRIVER-rescue:miw06-24s24-GH-kicad U6
-U 1 1 61C3BFF7
-P 2670 5515
-F 0 "U6" H 2920 5630 50  0000 C CNN
-F 1 "miw06-24s24" H 2920 5539 50  0000 C CNN
-F 2 "IGBT-DRIVER-emad:MIWI06" H 2670 5515 50  0001 C CNN
-F 3 "" H 2670 5515 50  0001 C CNN
-	1    2670 5515
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3540 5685 3855 5685
 Wire Wire Line
@@ -799,9 +729,9 @@ Connection ~ 4300 6105
 Connection ~ 3855 6105
 Text Label 4145 5685 2    50   ~ 0
 VCC_top
-Text Label 4235 1195 2    50   ~ 0
+Text Label 4615 1195 2    50   ~ 0
 VCC_BOTTOM
-Text Label 3975 1615 0    50   ~ 0
+Text Label 4355 1615 0    50   ~ 0
 GND_BOTTOM
 Text Label 3855 6105 0    50   ~ 0
 GND_top
@@ -893,4 +823,99 @@ F 3 "~" H 2065 2900 50  0001 C CNN
 	1    2065 2900
 	1    0    0    -1  
 $EndComp
+$Comp
+L GateDriver:miw06-24s24 U7
+U 1 1 619584B7
+P 2605 1025
+F 0 "U7" H 2855 1140 50  0000 C CNN
+F 1 "miw06-24s24" H 2855 1049 50  0000 C CNN
+F 2 "IGBT-DRIVER-emad:MIWI06" H 2605 1025 50  0001 C CNN
+F 3 "" H 2605 1025 50  0001 C CNN
+	1    2605 1025
+	1    0    0    -1  
+$EndComp
+$Comp
+L GateDriver:miw06-24s24 U8
+U 1 1 61959EFB
+P 2670 5515
+F 0 "U8" H 2920 5630 50  0000 C CNN
+F 1 "miw06-24s24" H 2920 5539 50  0000 C CNN
+F 2 "IGBT-DRIVER-emad:MIWI06" H 2670 5515 50  0001 C CNN
+F 3 "" H 2670 5515 50  0001 C CNN
+	1    2670 5515
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9080 2925 8585 2925
+Text Label 8585 2925 0    50   ~ 0
+VCC_top
+NoConn ~ 10090 2860
+NoConn ~ 10135 5705
+Wire Wire Line
+	3475 1195 3650 1195
+Wire Wire Line
+	3305 1195 3475 1195
+Connection ~ 3475 1195
+Wire Wire Line
+	3475 1195 3475 1255
+Wire Wire Line
+	3305 1615 3475 1615
+Wire Wire Line
+	3475 1615 3650 1615
+Connection ~ 3475 1615
+Wire Wire Line
+	3475 1555 3475 1615
+$Comp
+L Device:R R4
+U 1 1 615A8A09
+P 3475 1405
+F 0 "R4" V 3470 1450 50  0000 R CNN
+F 1 "6k" V 3385 1530 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 3405 1405 50  0001 C CNN
+F 3 "~" H 3475 1405 50  0001 C CNN
+	1    3475 1405
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 61F6C95B
+P 3650 1405
+F 0 "R2" V 3645 1450 50  0000 R CNN
+F 1 "6k" V 3560 1530 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 3580 1405 50  0001 C CNN
+F 3 "~" H 3650 1405 50  0001 C CNN
+	1    3650 1405
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 61F70B28
+P 3820 1405
+F 0 "R5" V 3815 1450 50  0000 R CNN
+F 1 "6k" V 3730 1530 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 3750 1405 50  0001 C CNN
+F 3 "~" H 3820 1405 50  0001 C CNN
+	1    3820 1405
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3650 1255 3650 1195
+Connection ~ 3650 1195
+Wire Wire Line
+	3650 1195 3820 1195
+Wire Wire Line
+	3820 1255 3820 1195
+Connection ~ 3820 1195
+Wire Wire Line
+	3820 1195 4170 1195
+Wire Wire Line
+	3650 1555 3650 1615
+Connection ~ 3650 1615
+Wire Wire Line
+	3650 1615 3820 1615
+Wire Wire Line
+	3820 1555 3820 1615
+Connection ~ 3820 1615
+Wire Wire Line
+	3820 1615 4170 1615
 $EndSCHEMATC

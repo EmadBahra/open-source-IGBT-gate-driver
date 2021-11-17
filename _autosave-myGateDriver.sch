@@ -884,7 +884,7 @@ Wire Wire Line
 Connection ~ 5765 8590
 Wire Wire Line
 	5765 8590 5765 8840
-Text HLabel 6310 7905 2    50   Input ~ 0
+Text HLabel 2280 10600 0    50   Input ~ 0
 ~Fault
 Wire Wire Line
 	6310 7905 6260 7905
@@ -2104,8 +2104,8 @@ P 13880 4400
 AR Path="/6201A0A0" Ref="R?"  Part="1" 
 AR Path="/6309618D/6201A0A0" Ref="R?"  Part="1" 
 AR Path="/63385DDA/6201A0A0" Ref="R?"  Part="1" 
-AR Path="/6340E1F3/6201A0A0" Ref="R?"  Part="1" 
-F 0 "R?" V 13880 4350 50  0000 L CNN
+AR Path="/6340E1F3/6201A0A0" Ref="R6"  Part="1" 
+F 0 "R6" V 13880 4350 50  0000 L CNN
 F 1 "1.5k" V 13755 4335 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 13810 4400 50  0001 C CNN
 F 3 "~" H 13880 4400 50  0001 C CNN
@@ -2120,4 +2120,44 @@ Wire Wire Line
 	13935 4550 13935 4495
 Wire Wire Line
 	13935 4495 13985 4495
+Text Label 6310 7905 0    50   ~ 0
+fault
+Text Label 3205 10600 0    50   ~ 0
+fault
+Text HLabel 2905 10800 2    50   Input ~ 0
+GND-p
+Wire Wire Line
+	2280 10600 2305 10600
+Wire Wire Line
+	2280 10800 2305 10800
+$Comp
+L Isolator:PC817 U?
+U 1 1 62050520
+P 2605 10700
+AR Path="/6309618D/62050520" Ref="U?"  Part="1" 
+AR Path="/6340E1F3/62050520" Ref="U1"  Part="1" 
+F 0 "U1" H 2605 11025 50  0000 C CNN
+F 1 "ps2801" H 2605 10934 50  0000 C CNN
+F 2 "SOP-4_4.4x2.6mm_P1.27mm" H 2405 10500 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 2605 10700 50  0001 L CNN
+	1    2605 10700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R Rex?
+U 1 1 6207C6A9
+P 3055 10600
+AR Path="/6207C6A9" Ref="Rex?"  Part="1" 
+AR Path="/6309618D/6207C6A9" Ref="Rex?"  Part="1" 
+AR Path="/63385DDA/6207C6A9" Ref="Rex?"  Part="1" 
+AR Path="/6340E1F3/6207C6A9" Ref="Rex1"  Part="1" 
+F 0 "Rex1" V 3155 10580 50  0000 C CNN
+F 1 "1k" V 2965 10590 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2985 10600 50  0001 C CNN
+F 3 "~" H 3055 10600 50  0001 C CNN
+	1    3055 10600
+	0    -1   -1   0   
+$EndComp
+Text HLabel 2280 10800 0    50   Input ~ 0
+GND-d
 $EndSCHEMATC
