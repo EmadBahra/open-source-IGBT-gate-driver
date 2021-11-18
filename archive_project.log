@@ -1,0 +1,5 @@
+11-18 15:59:32 Kicad_action_plugins-master.archive_project.action_archive_project 108:Plugin executed on: 'win32'
+11-18 15:59:32 Kicad_action_plugins-master.archive_project.action_archive_project 109:Plugin executed with python version: '2.7.18 (default, Apr 20 2020, 16:57:11)  [GCC 9.3.0 64 bit (AMD64)]'
+11-18 15:59:32 Kicad_action_plugins-master.archive_project.action_archive_project 110:KiCad build version: (5.1.10)-1
+11-18 15:59:32 Kicad_action_plugins-master.archive_project.action_archive_project 111:Archive plugin version: 48 started
+11-18 15:59:33 Kicad_action_plugins-master.archive_project.action_archive_project 136:Exiting as eeschema is opened
