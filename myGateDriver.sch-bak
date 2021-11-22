@@ -793,8 +793,6 @@ Wire Wire Line
 Connection ~ 14225 4250
 Text HLabel 1285 8930 0    50   Input ~ 0
 Pulse
-Text HLabel 3035 8205 1    50   Input ~ 0
-Vpp
 Wire Wire Line
 	3035 8205 3035 8360
 Text HLabel 6190 6470 1    50   Input ~ 0
@@ -2268,9 +2266,9 @@ L SMCJ160CA-13-F:SMCJ160CA-13-F D?
 U 1 1 619825AD
 P 4820 1585
 AR Path="/6309618D/619825AD" Ref="D?"  Part="1" 
-AR Path="/6340E1F3/619825AD" Ref="D?"  Part="1" 
+AR Path="/6340E1F3/619825AD" Ref="D3"  Part="1" 
 AR Path="/621760BD/619825AD" Ref="D?"  Part="1" 
-F 0 "D?" H 4820 1802 50  0000 C CNN
+F 0 "D3" H 4820 1802 50  0000 C CNN
 F 1 "SMCJ7A" V 4815 1370 50  0000 C CNN
 F 2 "IGBT-DRIVER-emad:DIOM7959X250N" H 4820 1585 50  0001 L BNN
 F 3 "" H 4820 1585 50  0001 L BNN
@@ -2281,4 +2279,6 @@ F 7 "5-2" H 4820 1585 50  0001 L BNN "PARTREV"
 	1    4820 1585
 	-1   0    0    1   
 $EndComp
+Text HLabel 3035 8205 1    50   Input ~ 0
+Vin
 $EndSCHEMATC

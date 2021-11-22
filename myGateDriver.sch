@@ -16,114 +16,114 @@ $EndDescr
 $Comp
 L Device:R R?
 U 1 1 630D95A2
-P 14450 4505
+P 8875 9500
 AR Path="/630D95A2" Ref="R?"  Part="1" 
 AR Path="/6309618D/630D95A2" Ref="R9"  Part="1" 
 AR Path="/63385DDA/630D95A2" Ref="R?"  Part="1" 
 AR Path="/6340E1F3/630D95A2" Ref="R19"  Part="1" 
 AR Path="/621760BD/630D95A2" Ref="R?"  Part="1" 
-F 0 "R19" V 14445 4450 50  0000 L CNN
-F 1 "1K" H 14520 4460 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 14380 4505 50  0001 C CNN
-F 3 "~" H 14450 4505 50  0001 C CNN
-	1    14450 4505
+F 0 "R19" V 8870 9445 50  0000 L CNN
+F 1 "1K" H 8945 9455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8805 9500 50  0001 C CNN
+F 3 "~" H 8875 9500 50  0001 C CNN
+	1    8875 9500
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Diode:BZX84Cxx D?
 U 1 1 630D95A8
-P 14450 4875
+P 8875 9870
 AR Path="/630D95A8" Ref="D?"  Part="1" 
 AR Path="/6309618D/630D95A8" Ref="DZunderVoltageFault1"  Part="1" 
 AR Path="/63385DDA/630D95A8" Ref="D?"  Part="1" 
 AR Path="/6340E1F3/630D95A8" Ref="D22"  Part="1" 
 AR Path="/621760BD/630D95A8" Ref="D?"  Part="1" 
-F 0 "D22" H 13955 4770 50  0000 L CNN
-F 1 "BZX85C20" H 14250 4985 50  0000 L CNN
-F 2 "Diode_SMD:D_MELF" H 14450 4700 50  0001 C CNN
-F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf" H 14450 4875 50  0001 C CNN
-	1    14450 4875
+F 0 "D22" H 8380 9765 50  0000 L CNN
+F 1 "BZX85C20" H 8675 9980 50  0000 L CNN
+F 2 "Diode_SMD:D_MELF" H 8875 9695 50  0001 C CNN
+F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf" H 8875 9870 50  0001 C CNN
+	1    8875 9870
 	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 630D95AE
-P 13985 4645
+P 8410 9640
 AR Path="/630D95AE" Ref="R?"  Part="1" 
 AR Path="/6309618D/630D95AE" Ref="R6"  Part="1" 
 AR Path="/63385DDA/630D95AE" Ref="R?"  Part="1" 
 AR Path="/6340E1F3/630D95AE" Ref="R16"  Part="1" 
 AR Path="/621760BD/630D95AE" Ref="R?"  Part="1" 
-F 0 "R16" V 13985 4595 50  0000 L CNN
-F 1 "1.8k" V 13860 4580 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 13915 4645 50  0001 C CNN
-F 3 "~" H 13985 4645 50  0001 C CNN
-	1    13985 4645
+F 0 "R16" V 8410 9590 50  0000 L CNN
+F 1 "1.8k" V 8285 9575 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8340 9640 50  0001 C CNN
+F 3 "~" H 8410 9640 50  0001 C CNN
+	1    8410 9640
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 630D95B4
-P 14285 5365
+P 8710 10360
 AR Path="/630D95B4" Ref="R?"  Part="1" 
 AR Path="/6309618D/630D95B4" Ref="R8"  Part="1" 
 AR Path="/63385DDA/630D95B4" Ref="R?"  Part="1" 
 AR Path="/6340E1F3/630D95B4" Ref="R18"  Part="1" 
 AR Path="/621760BD/630D95B4" Ref="R?"  Part="1" 
-F 0 "R18" V 14280 5315 50  0000 L CNN
-F 1 "1K" H 14355 5320 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 14215 5365 50  0001 C CNN
-F 3 "~" H 14285 5365 50  0001 C CNN
-	1    14285 5365
+F 0 "R18" V 8705 10310 50  0000 L CNN
+F 1 "1K" H 8780 10315 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8640 10360 50  0001 C CNN
+F 3 "~" H 8710 10360 50  0001 C CNN
+	1    8710 10360
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:C C?
 U 1 1 630D95BA
-P 14450 5340
+P 8875 10335
 AR Path="/630D95BA" Ref="C?"  Part="1" 
 AR Path="/6309618D/630D95BA" Ref="C5"  Part="1" 
 AR Path="/63385DDA/630D95BA" Ref="C?"  Part="1" 
 AR Path="/6340E1F3/630D95BA" Ref="C15"  Part="1" 
 AR Path="/621760BD/630D95BA" Ref="C?"  Part="1" 
-F 0 "C15" H 14360 5420 50  0000 L CNN
-F 1 "1nF" V 14400 5150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 14488 5190 50  0001 C CNN
-F 3 "~" H 14450 5340 50  0001 C CNN
-	1    14450 5340
+F 0 "C15" H 8785 10415 50  0000 L CNN
+F 1 "1nF" V 8825 10145 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 8913 10185 50  0001 C CNN
+F 3 "~" H 8875 10335 50  0001 C CNN
+	1    8875 10335
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	14450 5025 14450 5120
-Connection ~ 14450 5120
+	8875 10020 8875 10115
+Connection ~ 8875 10115
 Wire Wire Line
-	14450 5120 14450 5190
+	8875 10115 8875 10185
 Wire Wire Line
-	14450 5120 14285 5120
+	8875 10115 8710 10115
 Wire Wire Line
-	14285 5120 14285 5215
+	8710 10115 8710 10210
 Wire Wire Line
-	13985 5575 14285 5575
+	8410 10570 8710 10570
 Wire Wire Line
-	14450 5575 14450 5490
+	8875 10570 8875 10485
 Wire Wire Line
-	14285 5515 14285 5575
-Connection ~ 14285 5575
+	8710 10510 8710 10570
+Connection ~ 8710 10570
 Wire Wire Line
-	14285 5575 14450 5575
+	8710 10570 8875 10570
 Wire Wire Line
-	13985 5320 13985 5575
+	8410 10315 8410 10570
 Wire Wire Line
-	13985 4795 13985 4820
+	8410 9790 8410 9815
 Wire Wire Line
-	14450 4655 14450 4725
+	8875 9650 8875 9720
 Wire Wire Line
-	14450 4250 14450 4355
+	8875 9245 8875 9350
 Wire Wire Line
-	13930 4820 13985 4820
-Connection ~ 13985 4820
+	8355 9815 8410 9815
+Connection ~ 8410 9815
 Wire Wire Line
-	13985 4820 13985 4920
+	8410 9815 8410 9915
 Wire Wire Line
 	2025 8930 2075 8930
 $Comp
@@ -787,10 +787,10 @@ Connection ~ 6260 8310
 Wire Wire Line
 	5765 7655 5765 7705
 Wire Wire Line
-	14450 4250 14225 4250
+	8875 9245 8650 9245
 Wire Wire Line
-	14225 4185 14225 4250
-Connection ~ 14225 4250
+	8650 9180 8650 9245
+Connection ~ 8650 9245
 Text HLabel 1285 8930 0    50   Input ~ 0
 Pulse
 Wire Wire Line
@@ -801,7 +801,7 @@ Text HLabel 1995 9130 0    50   Input ~ 0
 GND-d
 Text HLabel 2075 8870 1    50   Input ~ 0
 ~Pulse-Disable
-Text HLabel 14225 4185 1    50   Input ~ 0
+Text HLabel 8650 9180 1    50   Input ~ 0
 Vpp
 Text HLabel 4755 7385 1    50   Input ~ 0
 Vpp
@@ -838,17 +838,17 @@ Collector
 $Comp
 L Device:D_Schottky Dex?
 U 1 1 631FDFEE
-P 13780 4820
+P 8205 9815
 AR Path="/631FDFEE" Ref="Dex?"  Part="1" 
 AR Path="/6309618D/631FDFEE" Ref="Dex2"  Part="1" 
 AR Path="/63385DDA/631FDFEE" Ref="Dex?"  Part="1" 
 AR Path="/6340E1F3/631FDFEE" Ref="Dex7"  Part="1" 
 AR Path="/621760BD/631FDFEE" Ref="Dex?"  Part="1" 
-F 0 "Dex7" H 13770 4925 50  0000 C CNN
-F 1 "1n4148" H 13780 4710 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA" H 13780 4820 50  0001 C CNN
-F 3 "~" H 13780 4820 50  0001 C CNN
-	1    13780 4820
+F 0 "Dex7" H 8195 9920 50  0000 C CNN
+F 1 "1n4148" H 8205 9705 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA" H 8205 9815 50  0001 C CNN
+F 3 "~" H 8205 9815 50  0001 C CNN
+	1    8205 9815
 	1    0    0    1   
 $EndComp
 Text HLabel 13980 8330 2    50   Input ~ 0
@@ -1055,20 +1055,20 @@ Zener diodes in gate drive circuits may cause oscillations\nso I used diode  for
 $Comp
 L Diode:BZX84Cxx D?
 U 1 1 61958594
-P 7850 3930
+P 5030 3750
 AR Path="/61958594" Ref="D?"  Part="1" 
 AR Path="/6309618D/61958594" Ref="D7"  Part="1" 
 AR Path="/63385DDA/61958594" Ref="D?"  Part="1" 
 AR Path="/6340E1F3/61958594" Ref="D15"  Part="1" 
 AR Path="/621760BD/61958594" Ref="D?"  Part="1" 
-F 0 "D15" V 7765 3885 50  0000 L CNN
-F 1 "26v Zener" V 7945 3775 50  0000 L CNN
-F 2 "Diode_SMD:D_MELF" H 7850 3755 50  0001 C CNN
-F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf" H 7850 3930 50  0001 C CNN
-	1    7850 3930
+F 0 "D15" V 4945 3705 50  0000 L CNN
+F 1 "26v Zener" V 5125 3595 50  0000 L CNN
+F 2 "Diode_SMD:D_MELF" H 5030 3575 50  0001 C CNN
+F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf" H 5030 3750 50  0001 C CNN
+	1    5030 3750
 	0    -1   1    0   
 $EndComp
-Text HLabel 7850 4270 3    50   Input ~ 0
+Text HLabel 5030 4090 3    50   Input ~ 0
 GND-p
 $Comp
 L Transistor_BJT:BC817 Q?
@@ -1121,20 +1121,20 @@ $EndComp
 $Comp
 L Transistor_BJT:BC817 Q?
 U 1 1 619FDDB9
-P 14085 5120
+P 8510 10115
 AR Path="/619FDDB9" Ref="Q?"  Part="1" 
 AR Path="/6309618D/619FDDB9" Ref="Q7"  Part="1" 
 AR Path="/63385DDA/619FDDB9" Ref="Q?"  Part="1" 
 AR Path="/6340E1F3/619FDDB9" Ref="Q18"  Part="1" 
 AR Path="/621760BD/619FDDB9" Ref="Q?"  Part="1" 
-F 0 "Q18" H 14276 5166 50  0000 L CNN
-F 1 "BC817" H 14276 5075 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 14285 5045 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/BC818-D.pdf" H 14085 5120 50  0001 L CNN
-	1    14085 5120
+F 0 "Q18" H 8701 10161 50  0000 L CNN
+F 1 "BC817" H 8701 10070 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8710 10040 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/BC818-D.pdf" H 8510 10115 50  0001 L CNN
+	1    8510 10115
 	-1   0    0    -1  
 $EndComp
-Connection ~ 14285 5120
+Connection ~ 8710 10115
 $Comp
 L Transistor_BJT:BC817 Q?
 U 1 1 619FFBE7
@@ -1279,27 +1279,27 @@ Wire Notes Line
 	6095 2205 6095 495 
 Wire Notes Line
 	500  495  6095 495 
-Text HLabel 7410 3540 0    50   Input ~ 0
+Text HLabel 4590 3360 0    50   Input ~ 0
 Vin
 $Comp
 L Device:Fuse F2
 U 1 1 61AD0B07
-P 7665 3540
+P 4845 3360
 AR Path="/6309618D/61AD0B07" Ref="F2"  Part="1" 
 AR Path="/6340E1F3/61AD0B07" Ref="F4"  Part="1" 
 AR Path="/621760BD/61AD0B07" Ref="F?"  Part="1" 
-F 0 "F4" V 7468 3540 50  0000 C CNN
-F 1 "Fuse" V 7559 3540 50  0000 C CNN
-F 2 "IGBT-DRIVER-emad:fuse.holder.1808" V 7595 3540 50  0001 C CNN
-F 3 "~" H 7665 3540 50  0001 C CNN
-	1    7665 3540
+F 0 "F4" V 4648 3360 50  0000 C CNN
+F 1 "Fuse" V 4739 3360 50  0000 C CNN
+F 2 "IGBT-DRIVER-emad:fuse.holder.1808" V 4775 3360 50  0001 C CNN
+F 3 "~" H 4845 3360 50  0001 C CNN
+	1    4845 3360
 	0    1    1    0   
 $EndComp
 Text Label 10515 3990 0    50   ~ 0
 Gate
 Wire Wire Line
 	10515 3990 10515 4085
-Text Notes 7435 3270 0    50   ~ 0
+Text Notes 4615 3090 0    50   ~ 0
 input voltage protection
 Text Notes 11310 3960 0    50   ~ 0
 trun off gate clamp
@@ -1307,11 +1307,11 @@ Text Label 5615 8840 0    50   ~ 0
 Protection
 Wire Wire Line
 	5765 8840 5960 8840
-Text Label 13235 4820 0    50   ~ 0
+Text Label 7660 9815 0    50   ~ 0
 Protection
 Wire Wire Line
-	13630 4820 13235 4820
-Text Notes 14525 4160 0    50   ~ 0
+	8055 9815 7660 9815
+Text Notes 8950 9155 0    50   ~ 0
 Under voltage protection
 Wire Wire Line
 	10970 7555 10970 8135
@@ -2033,13 +2033,13 @@ $EndComp
 Wire Wire Line
 	5465 6410 5465 8010
 Wire Wire Line
-	7410 3540 7515 3540
-Text HLabel 7910 3535 1    50   Input ~ 0
+	4590 3360 4695 3360
+Text HLabel 5090 3355 1    50   Input ~ 0
 Vpp
 Wire Wire Line
-	7910 3535 7910 3540
+	5090 3355 5090 3360
 Wire Wire Line
-	7910 3540 7850 3540
+	5090 3360 5030 3360
 $Comp
 L Isolator:PC817 U1
 U 1 1 619BFFD4
@@ -2055,36 +2055,36 @@ F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 3440 10265 50  0
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	7850 3540 7850 3780
+	5030 3360 5030 3600
 Wire Wire Line
-	7850 4080 7850 4270
-Connection ~ 7850 3540
+	5030 3900 5030 4090
+Connection ~ 5030 3360
 Wire Wire Line
-	7850 3540 7815 3540
+	5030 3360 4995 3360
 $Comp
 L Device:R R?
 U 1 1 6201A0A0
-P 13880 4400
+P 8305 9395
 AR Path="/6201A0A0" Ref="R?"  Part="1" 
 AR Path="/6309618D/6201A0A0" Ref="R?"  Part="1" 
 AR Path="/63385DDA/6201A0A0" Ref="R?"  Part="1" 
 AR Path="/6340E1F3/6201A0A0" Ref="R6"  Part="1" 
 AR Path="/621760BD/6201A0A0" Ref="R?"  Part="1" 
-F 0 "R6" V 13880 4350 50  0000 L CNN
-F 1 "1.5k" V 13755 4335 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 13810 4400 50  0001 C CNN
-F 3 "~" H 13880 4400 50  0001 C CNN
-	1    13880 4400
+F 0 "R6" V 8305 9345 50  0000 L CNN
+F 1 "1.5k" V 8180 9330 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8235 9395 50  0001 C CNN
+F 3 "~" H 8305 9395 50  0001 C CNN
+	1    8305 9395
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	13880 4250 14225 4250
+	8305 9245 8650 9245
 Wire Wire Line
-	13880 4550 13935 4550
+	8305 9545 8360 9545
 Wire Wire Line
-	13935 4550 13935 4495
+	8360 9545 8360 9490
 Wire Wire Line
-	13935 4495 13985 4495
+	8360 9490 8410 9490
 Text Label 6310 7905 0    50   ~ 0
 fault
 Text Label 3990 9770 0    50   ~ 0
@@ -2231,7 +2231,7 @@ Connection ~ 3685 4630
 Connection ~ 3685 4980
 Text HLabel 6625 7255 3    50   Input ~ 0
 GND-p
-Text HLabel 14175 5575 3    50   Input ~ 0
+Text HLabel 8600 10570 3    50   Input ~ 0
 GND-p
 Wire Wire Line
 	3330 9230 4415 9230
