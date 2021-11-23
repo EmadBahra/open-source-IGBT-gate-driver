@@ -1,4 +1,4 @@
-19257014602483507
+19258652299496729
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83131,6 +83131,13 @@ EXB841
 0
 13
 13
+kicadFP
+IDC-Header_2x05-1MP_P2.54mm_Latch_Horizontal
+Through hole IDC header, 2x05, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows latches, mounting holes, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0
+Through hole horizontal IDC header THT 2x05 2.54mm double row
+0
+12
+11
 kicadFP
 LED_BLUE_0805
 Diode SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
