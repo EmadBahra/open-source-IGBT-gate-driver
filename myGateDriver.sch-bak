@@ -148,8 +148,6 @@ F 3 "~" H 1875 8930 50  0001 C CNN
 	1    1875 8930
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	1995 9130 2115 9130
 $Comp
 L Device:R R?
 U 1 1 630D9621
@@ -827,7 +825,7 @@ Wire Wire Line
 	3035 8205 3035 8360
 Text HLabel 6190 6470 1    50   Input ~ 0
 Vpp
-Text HLabel 1995 9130 0    50   Input ~ 0
+Text HLabel 1635 9580 0    50   Input ~ 0
 GND-d
 Text HLabel 2075 8870 1    50   Input ~ 0
 ~Pulse-Disable
@@ -2505,4 +2503,27 @@ Wire Wire Line
 	1950 1510 1945 1510
 Wire Wire Line
 	1945 1510 1945 1500
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP2
+U 1 1 61A28ABF
+P 1870 9580
+AR Path="/61D91DC5/61A28ABF" Ref="JP2"  Part="1" 
+AR Path="/6340E1F3/61A28ABF" Ref="JP1"  Part="1" 
+F 0 "JP2" H 1870 9693 50  0000 C CNN
+F 1 "SolderJumper_3_Bridged12" H 1870 9784 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_Pad1.0x1.5mm" H 1870 9580 50  0001 C CNN
+F 3 "~" H 1870 9580 50  0001 C CNN
+	1    1870 9580
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1635 9580 1670 9580
+Text HLabel 2070 9580 2    50   Input ~ 0
+Vccmin
+Wire Wire Line
+	1870 9430 1870 9130
+Wire Wire Line
+	1870 9130 2115 9130
+Text Notes 965  9535 0    50   ~ 0
+jumper for 15v logic
 $EndSCHEMATC
