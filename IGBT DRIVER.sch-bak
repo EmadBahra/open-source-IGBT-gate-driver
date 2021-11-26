@@ -619,7 +619,7 @@ U 1 1 61D08271
 P 2065 2900
 F 0 "J1" H 2115 3317 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 2115 3226 50  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x05-1MP_P2.54mm_Latch_Horizontal" H 2065 2900 50  0001 C CNN
+F 2 "kicadFP:IDC-Header_2x05-1MP_P2.54mm_Latch_Horizontal" H 2065 2900 50  0001 C CNN
 F 3 "~" H 2065 2900 50  0001 C CNN
 	1    2065 2900
 	1    0    0    -1  

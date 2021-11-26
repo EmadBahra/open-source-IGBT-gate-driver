@@ -13,122 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Device:R R?
-U 1 1 630D95A2
-P 8875 9245
-AR Path="/630D95A2" Ref="R?"  Part="1" 
-AR Path="/6309618D/630D95A2" Ref="R?"  Part="1" 
-AR Path="/63385DDA/630D95A2" Ref="R?"  Part="1" 
-AR Path="/6340E1F3/630D95A2" Ref="R29"  Part="1" 
-AR Path="/621760BD/630D95A2" Ref="R?"  Part="1" 
-AR Path="/61D91DC5/630D95A2" Ref="R62"  Part="1" 
-F 0 "R29" V 8870 9190 50  0000 L CNN
-F 1 "1K" H 8945 9200 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 8805 9245 50  0001 C CNN
-F 3 "~" H 8875 9245 50  0001 C CNN
-	1    8875 9245
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Diode:BZX84Cxx D?
-U 1 1 630D95A8
-P 8875 9870
-AR Path="/630D95A8" Ref="D?"  Part="1" 
-AR Path="/6309618D/630D95A8" Ref="D?"  Part="1" 
-AR Path="/63385DDA/630D95A8" Ref="D?"  Part="1" 
-AR Path="/6340E1F3/630D95A8" Ref="D19"  Part="1" 
-AR Path="/621760BD/630D95A8" Ref="D?"  Part="1" 
-AR Path="/61D91DC5/630D95A8" Ref="D40"  Part="1" 
-F 0 "D19" H 8380 9765 50  0000 L CNN
-F 1 "BZX85C20" H 8675 9980 50  0000 L CNN
-F 2 "Diode_SMD:D_MELF" H 8875 9695 50  0001 C CNN
-F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf" H 8875 9870 50  0001 C CNN
-	1    8875 9870
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 630D95AE
-P 8410 9580
-AR Path="/630D95AE" Ref="R?"  Part="1" 
-AR Path="/6309618D/630D95AE" Ref="R?"  Part="1" 
-AR Path="/63385DDA/630D95AE" Ref="R?"  Part="1" 
-AR Path="/6340E1F3/630D95AE" Ref="R27"  Part="1" 
-AR Path="/621760BD/630D95AE" Ref="R?"  Part="1" 
-AR Path="/61D91DC5/630D95AE" Ref="R60"  Part="1" 
-F 0 "R27" V 8410 9530 50  0000 L CNN
-F 1 "1.8k" V 8285 9515 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 8340 9580 50  0001 C CNN
-F 3 "~" H 8410 9580 50  0001 C CNN
-	1    8410 9580
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 630D95B4
-P 8710 10360
-AR Path="/630D95B4" Ref="R?"  Part="1" 
-AR Path="/6309618D/630D95B4" Ref="R?"  Part="1" 
-AR Path="/63385DDA/630D95B4" Ref="R?"  Part="1" 
-AR Path="/6340E1F3/630D95B4" Ref="R28"  Part="1" 
-AR Path="/621760BD/630D95B4" Ref="R?"  Part="1" 
-AR Path="/61D91DC5/630D95B4" Ref="R61"  Part="1" 
-F 0 "R28" V 8705 10310 50  0000 L CNN
-F 1 "1K" H 8780 10315 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 8640 10360 50  0001 C CNN
-F 3 "~" H 8710 10360 50  0001 C CNN
-	1    8710 10360
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 630D95BA
-P 8875 10335
-AR Path="/630D95BA" Ref="C?"  Part="1" 
-AR Path="/6309618D/630D95BA" Ref="C?"  Part="1" 
-AR Path="/63385DDA/630D95BA" Ref="C?"  Part="1" 
-AR Path="/6340E1F3/630D95BA" Ref="C39"  Part="1" 
-AR Path="/621760BD/630D95BA" Ref="C?"  Part="1" 
-AR Path="/61D91DC5/630D95BA" Ref="C66"  Part="1" 
-F 0 "C39" H 8785 10415 50  0000 L CNN
-F 1 "1nF" V 8825 10145 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 8913 10185 50  0001 C CNN
-F 3 "~" H 8875 10335 50  0001 C CNN
-	1    8875 10335
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	8875 10020 8875 10115
-Connection ~ 8875 10115
-Wire Wire Line
-	8875 10115 8875 10185
-Wire Wire Line
-	8875 10115 8710 10115
-Wire Wire Line
-	8710 10115 8710 10210
-Wire Wire Line
-	8410 10570 8710 10570
-Wire Wire Line
-	8875 10570 8875 10485
-Wire Wire Line
-	8710 10510 8710 10570
-Connection ~ 8710 10570
-Wire Wire Line
-	8710 10570 8875 10570
-Wire Wire Line
-	8410 10315 8410 10570
-Wire Wire Line
-	8410 9730 8410 9815
-Wire Wire Line
-	8875 9395 8875 9720
-Wire Wire Line
-	8875 8990 8875 9095
-Wire Wire Line
-	8355 9815 8410 9815
-Connection ~ 8410 9815
-Wire Wire Line
-	8410 9815 8410 9915
 Wire Wire Line
 	2025 8930 2075 8930
 $Comp
@@ -462,18 +346,18 @@ Wire Wire Line
 $Comp
 L Device:R Rex?
 U 1 1 630D96C6
-P 5465 6260
+P 5465 6610
 AR Path="/630D96C6" Ref="Rex?"  Part="1" 
 AR Path="/6309618D/630D96C6" Ref="Rex?"  Part="1" 
 AR Path="/63385DDA/630D96C6" Ref="Rex?"  Part="1" 
 AR Path="/6340E1F3/630D96C6" Ref="R19"  Part="1" 
 AR Path="/621760BD/630D96C6" Ref="Rex?"  Part="1" 
 AR Path="/61D91DC5/630D96C6" Ref="R51"  Part="1" 
-F 0 "R19" V 5460 6255 50  0000 C CNN
-F 1 "220" V 5375 6250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 5395 6260 50  0001 C CNN
-F 3 "~" H 5465 6260 50  0001 C CNN
-	1    5465 6260
+F 0 "R19" V 5460 6605 50  0000 C CNN
+F 1 "220" V 5375 6600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5395 6610 50  0001 C CNN
+F 3 "~" H 5465 6610 50  0001 C CNN
+	1    5465 6610
 	1    0    0    -1  
 $EndComp
 Connection ~ 5465 8010
@@ -497,74 +381,74 @@ $EndComp
 $Comp
 L Transistor_BJT:BC817 Q?
 U 1 1 630D96D4
-P 11170 7555
+P 7585 6570
 AR Path="/630D96D4" Ref="Q?"  Part="1" 
 AR Path="/6309618D/630D96D4" Ref="Q?"  Part="1" 
 AR Path="/63385DDA/630D96D4" Ref="Q?"  Part="1" 
 AR Path="/6340E1F3/630D96D4" Ref="Q8"  Part="1" 
 AR Path="/621760BD/630D96D4" Ref="Q?"  Part="1" 
 AR Path="/61D91DC5/630D96D4" Ref="Q20"  Part="1" 
-F 0 "Q8" H 11361 7601 50  0000 L CNN
-F 1 "BC817" H 11361 7510 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 11370 7480 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/BC818-D.pdf" H 11170 7555 50  0001 L CNN
-	1    11170 7555
+F 0 "Q8" H 7776 6616 50  0000 L CNN
+F 1 "BC817" H 7776 6525 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7785 6495 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/BC818-D.pdf" H 7585 6570 50  0001 L CNN
+	1    7585 6570
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11270 7755 11270 7825
+	7685 6770 7685 6840
 $Comp
 L Device:R R?
 U 1 1 630D96DF
-P 11620 7825
+P 8035 6840
 AR Path="/630D96DF" Ref="R?"  Part="1" 
 AR Path="/6309618D/630D96DF" Ref="R?"  Part="1" 
 AR Path="/63385DDA/630D96DF" Ref="R?"  Part="1" 
 AR Path="/6340E1F3/630D96DF" Ref="R32"  Part="1" 
 AR Path="/621760BD/630D96DF" Ref="R?"  Part="1" 
 AR Path="/61D91DC5/630D96DF" Ref="R65"  Part="1" 
-F 0 "R32" V 11695 7850 50  0000 C CNN
-F 1 "10" V 11530 7815 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 11550 7825 50  0001 C CNN
-F 3 "~" H 11620 7825 50  0001 C CNN
-	1    11620 7825
+F 0 "R32" V 8110 6865 50  0000 C CNN
+F 1 "10" V 7945 6830 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7965 6840 50  0001 C CNN
+F 3 "~" H 8035 6840 50  0001 C CNN
+	1    8035 6840
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:C C?
 U 1 1 630D96E5
-P 11850 8070
+P 8265 7085
 AR Path="/630D96E5" Ref="C?"  Part="1" 
 AR Path="/6309618D/630D96E5" Ref="C?"  Part="1" 
 AR Path="/63385DDA/630D96E5" Ref="C?"  Part="1" 
 AR Path="/6340E1F3/630D96E5" Ref="C40"  Part="1" 
 AR Path="/621760BD/630D96E5" Ref="C?"  Part="1" 
 AR Path="/61D91DC5/630D96E5" Ref="C67"  Part="1" 
-F 0 "C40" H 11850 8160 50  0000 C CNN
-F 1 "10nF" H 11830 7995 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 11888 7920 50  0001 C CNN
-F 3 "~" H 11850 8070 50  0001 C CNN
-	1    11850 8070
+F 0 "C40" H 8265 7175 50  0000 C CNN
+F 1 "10nF" H 8245 7010 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8303 6935 50  0001 C CNN
+F 3 "~" H 8265 7085 50  0001 C CNN
+	1    8265 7085
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	11850 7920 11850 7825
+	8265 6935 8265 6840
 Wire Wire Line
-	11850 7825 11770 7825
+	8265 6840 8185 6840
 Wire Wire Line
-	11470 7825 11270 7825
-Connection ~ 11270 7825
+	7885 6840 7685 6840
+Connection ~ 7685 6840
 Wire Wire Line
-	11270 7825 11270 7935
+	7685 6840 7685 6950
 Wire Wire Line
-	11270 8335 11570 8335
+	7685 7350 7985 7350
 Wire Wire Line
-	11850 8335 11850 8220
+	8265 7350 8265 7235
 Wire Wire Line
-	11570 8335 11570 8385
-Connection ~ 11570 8335
+	7985 7350 7985 7400
+Connection ~ 7985 7350
 Wire Wire Line
-	11570 8335 11850 8335
+	7985 7350 8265 7350
 $Comp
 L Isolator:6N136S U?
 U 1 1 630D96FB
@@ -677,100 +561,100 @@ Wire Wire Line
 $Comp
 L Transistor_BJT:TIP41 Q?
 U 1 1 630D972C
-P 12335 7190
+P 8750 6205
 AR Path="/630D972C" Ref="Q?"  Part="1" 
 AR Path="/6309618D/630D972C" Ref="Q?"  Part="1" 
 AR Path="/63385DDA/630D972C" Ref="Q?"  Part="1" 
 AR Path="/6340E1F3/630D972C" Ref="Q11"  Part="1" 
 AR Path="/621760BD/630D972C" Ref="Q?"  Part="1" 
 AR Path="/61D91DC5/630D972C" Ref="Q23"  Part="1" 
-F 0 "Q11" H 12175 7315 50  0000 L CNN
-F 1 "d44vh10" H 11885 7250 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TO-252-2" H 12585 7115 50  0001 L CIN
-F 3 "" H 12335 7190 50  0001 L CNN
-	1    12335 7190
+F 0 "Q11" H 8590 6330 50  0000 L CNN
+F 1 "d44vh10" H 8300 6265 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 9000 6130 50  0001 L CIN
+F 3 "" H 8750 6205 50  0001 L CNN
+	1    8750 6205
 	1    0    0    -1  
 $EndComp
 $Comp
 L Transistor_BJT:TIP42 Q?
 U 1 1 630D9732
-P 12335 8445
+P 8750 7460
 AR Path="/630D9732" Ref="Q?"  Part="1" 
 AR Path="/6309618D/630D9732" Ref="Q?"  Part="1" 
 AR Path="/63385DDA/630D9732" Ref="Q?"  Part="1" 
 AR Path="/6340E1F3/630D9732" Ref="Q12"  Part="1" 
 AR Path="/621760BD/630D9732" Ref="Q?"  Part="1" 
 AR Path="/61D91DC5/630D9732" Ref="Q24"  Part="1" 
-F 0 "Q12" H 12180 8525 50  0000 L CNN
-F 1 "D45VH10" H 12035 8615 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TO-252-2" H 12585 8370 50  0001 L CIN
-F 3 "" H 12335 8445 50  0001 L CNN
-	1    12335 8445
+F 0 "Q12" H 8595 7540 50  0000 L CNN
+F 1 "D45VH10" H 8450 7630 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 9000 7385 50  0001 L CIN
+F 3 "" H 8750 7460 50  0001 L CNN
+	1    8750 7460
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	12135 8445 12135 7825
-Connection ~ 11850 7825
-Connection ~ 12135 7825
+	8550 7460 8550 6840
+Connection ~ 8265 6840
+Connection ~ 8550 6840
 Wire Wire Line
-	12135 7825 12135 7190
+	8550 6840 8550 6205
 Wire Wire Line
-	11850 7825 12135 7825
+	8265 6840 8550 6840
 $Comp
 L Device:R Ron?
 U 1 1 630D9744
-P 12435 7620
+P 8850 6635
 AR Path="/630D9744" Ref="Ron?"  Part="1" 
 AR Path="/6309618D/630D9744" Ref="Ron?"  Part="1" 
 AR Path="/63385DDA/630D9744" Ref="Ron?"  Part="1" 
 AR Path="/6340E1F3/630D9744" Ref="R35"  Part="1" 
 AR Path="/621760BD/630D9744" Ref="Ron?"  Part="1" 
 AR Path="/61D91DC5/630D9744" Ref="R68"  Part="1" 
-F 0 "R35" V 12435 7620 50  0000 C CNN
-F 1 "40" V 12505 7620 50  0000 C CNN
-F 2 "Resistor_SMD:R_2512_6332Metric" V 12365 7620 50  0001 C CNN
-F 3 "~" H 12435 7620 50  0001 C CNN
-	1    12435 7620
+F 0 "R35" V 8850 6635 50  0000 C CNN
+F 1 "40" V 8920 6635 50  0000 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric" V 8780 6635 50  0001 C CNN
+F 3 "~" H 8850 6635 50  0001 C CNN
+	1    8850 6635
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R Roff?
 U 1 1 630D974B
-P 12435 8060
+P 8850 7075
 AR Path="/630D974B" Ref="Roff?"  Part="1" 
 AR Path="/6309618D/630D974B" Ref="Roff?"  Part="1" 
 AR Path="/63385DDA/630D974B" Ref="Roff?"  Part="1" 
 AR Path="/6340E1F3/630D974B" Ref="R36"  Part="1" 
 AR Path="/621760BD/630D974B" Ref="Roff?"  Part="1" 
 AR Path="/61D91DC5/630D974B" Ref="R69"  Part="1" 
-F 0 "R36" V 12435 8055 50  0000 C CNN
-F 1 "40" V 12515 8055 50  0000 C CNN
-F 2 "Resistor_SMD:R_2512_6332Metric" V 12365 8060 50  0001 C CNN
-F 3 "~" H 12435 8060 50  0001 C CNN
-	1    12435 8060
+F 0 "R36" V 8850 7070 50  0000 C CNN
+F 1 "40" V 8930 7070 50  0000 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric" V 8780 7075 50  0001 C CNN
+F 3 "~" H 8850 7075 50  0001 C CNN
+	1    8850 7075
 	1    0    0    -1  
 $EndComp
 $Comp
 L Simulation_SPICE:DIODE D?
 U 1 1 630D9754
-P 5465 5910
+P 5465 6260
 AR Path="/630D9754" Ref="D?"  Part="1" 
 AR Path="/6309618D/630D9754" Ref="D?"  Part="1" 
 AR Path="/63385DDA/630D9754" Ref="D?"  Part="1" 
 AR Path="/6340E1F3/630D9754" Ref="D15"  Part="1" 
 AR Path="/621760BD/630D9754" Ref="D?"  Part="1" 
 AR Path="/61D91DC5/630D9754" Ref="D35"  Part="1" 
-F 0 "D15" H 5465 6010 50  0000 C CNN
-F 1 "BYV26E" V 5465 5690 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5465 5910 50  0001 C CNN
-F 3 "~" H 5465 5910 50  0001 C CNN
-F 4 "Y" H 5465 5910 50  0001 L CNN "Spice_Netlist_Enabled"
-F 5 "D" H 5465 5910 50  0001 L CNN "Spice_Primitive"
-	1    5465 5910
+F 0 "D15" H 5465 6360 50  0000 C CNN
+F 1 "BYV26E" V 5465 6040 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5465 6260 50  0001 C CNN
+F 3 "~" H 5465 6260 50  0001 C CNN
+F 4 "Y" H 5465 6260 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "D" H 5465 6260 50  0001 L CNN "Spice_Primitive"
+	1    5465 6260
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5465 6110 5465 6060
+	5465 6460 5465 6410
 Wire Wire Line
 	4755 7385 4755 7570
 Wire Wire Line
@@ -783,7 +667,7 @@ Connection ~ 3330 8735
 Wire Wire Line
 	3450 8245 3450 8735
 Wire Wire Line
-	12435 6990 12435 6950
+	8850 6005 8850 5965
 $Comp
 L Device:R R?
 U 1 1 630D9801
@@ -815,10 +699,6 @@ Wire Wire Line
 Connection ~ 6260 8310
 Wire Wire Line
 	5765 7655 5765 7705
-Wire Wire Line
-	8875 8990 8650 8990
-Wire Wire Line
-	8650 8925 8650 8990
 Text HLabel 1610 8930 0    50   Input ~ 0
 Pulse
 Wire Wire Line
@@ -829,23 +709,21 @@ Text HLabel 1635 9580 0    50   Input ~ 0
 GND-d
 Text HLabel 2075 8870 1    50   Input ~ 0
 ~Pulse-Disable
-Text HLabel 8650 8925 1    50   Input ~ 0
-Vpp
 Text HLabel 4755 7385 1    50   Input ~ 0
 Vpp
 Text HLabel 5765 7655 1    50   Input ~ 0
 Vpp
 Text HLabel 7810 8310 2    50   Input ~ 0
 Vpp
-Text HLabel 11270 7225 1    50   Input ~ 0
+Text HLabel 7685 6240 1    50   Input ~ 0
 Vpp
-Text HLabel 12435 6880 1    50   Input ~ 0
+Text HLabel 8850 5895 1    50   Input ~ 0
 Vpp
 Text HLabel 4755 9290 3    50   Input ~ 0
 GND-p
-Text HLabel 11570 8385 3    50   Input ~ 0
+Text HLabel 7985 7400 3    50   Input ~ 0
 GND-p
-Text HLabel 12435 8815 3    50   Input ~ 0
+Text HLabel 8850 7830 3    50   Input ~ 0
 GND-p
 Wire Wire Line
 	5840 8590 5765 8590
@@ -859,80 +737,61 @@ Wire Wire Line
 Connection ~ 6260 7905
 Text HLabel 3450 8245 1    50   Input ~ 0
 Emitter
-Text HLabel 13995 7850 2    50   Input ~ 0
+Text HLabel 10410 6865 2    50   Input ~ 0
 Gate
 Text HLabel 955  1585 0    50   Input ~ 0
 Collector
-$Comp
-L Device:D_Schottky Dex?
-U 1 1 631FDFEE
-P 8205 9815
-AR Path="/631FDFEE" Ref="Dex?"  Part="1" 
-AR Path="/6309618D/631FDFEE" Ref="Dex?"  Part="1" 
-AR Path="/63385DDA/631FDFEE" Ref="Dex?"  Part="1" 
-AR Path="/6340E1F3/631FDFEE" Ref="D18"  Part="1" 
-AR Path="/621760BD/631FDFEE" Ref="Dex?"  Part="1" 
-AR Path="/61D91DC5/631FDFEE" Ref="D39"  Part="1" 
-F 0 "D18" H 8205 9720 50  0000 C CNN
-F 1 "1n4148" H 8205 9925 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA" H 8205 9815 50  0001 C CNN
-F 3 "~" H 8205 9815 50  0001 C CNN
-	1    8205 9815
-	1    0    0    1   
-$EndComp
-Text HLabel 13980 8330 2    50   Input ~ 0
+Text HLabel 10395 7345 2    50   Input ~ 0
 Emitter
 $Comp
 L Device:R R?
 U 1 1 630D9596
-P 13435 8100
+P 9850 7115
 AR Path="/630D9596" Ref="R?"  Part="1" 
 AR Path="/6309618D/630D9596" Ref="R?"  Part="1" 
 AR Path="/63385DDA/630D9596" Ref="R?"  Part="1" 
 AR Path="/6340E1F3/630D9596" Ref="R38"  Part="1" 
 AR Path="/621760BD/630D9596" Ref="R?"  Part="1" 
 AR Path="/61D91DC5/630D9596" Ref="R71"  Part="1" 
-F 0 "R38" V 13340 8095 50  0000 C CNN
-F 1 "20K" V 13515 8095 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 13365 8100 50  0001 C CNN
-F 3 "~" H 13435 8100 50  0001 C CNN
-	1    13435 8100
+F 0 "R38" V 9755 7110 50  0000 C CNN
+F 1 "20K" V 9930 7110 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 9780 7115 50  0001 C CNN
+F 3 "~" H 9850 7115 50  0001 C CNN
+	1    9850 7115
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:C C?
 U 1 1 630D9590
-P 13670 8100
+P 10085 7115
 AR Path="/630D9590" Ref="C?"  Part="1" 
 AR Path="/6309618D/630D9590" Ref="C?"  Part="1" 
 AR Path="/63385DDA/630D9590" Ref="C?"  Part="1" 
 AR Path="/6340E1F3/630D9590" Ref="C41"  Part="1" 
 AR Path="/621760BD/630D9590" Ref="C?"  Part="1" 
 AR Path="/61D91DC5/630D9590" Ref="C68"  Part="1" 
-F 0 "C41" V 13530 8095 50  0000 C CNN
-F 1 "C" V 13595 8020 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 13708 7950 50  0001 C CNN
-F 3 "~" H 13670 8100 50  0001 C CNN
-	1    13670 8100
+F 0 "C41" V 9945 7110 50  0000 C CNN
+F 1 "C" V 10010 7035 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 10123 6965 50  0001 C CNN
+F 3 "~" H 10085 7115 50  0001 C CNN
+	1    10085 7115
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	13435 7950 13435 7850
-Connection ~ 13435 7850
+	9850 6965 9850 6865
+Connection ~ 9850 6865
 Wire Wire Line
-	13670 7950 13670 7850
-Connection ~ 13670 7850
+	10085 6965 10085 6865
+Connection ~ 10085 6865
 Wire Wire Line
-	13670 7850 13995 7850
+	10085 6865 10410 6865
 Wire Wire Line
-	13435 8330 13435 8250
+	9850 7345 9850 7265
 Wire Wire Line
-	13435 8330 13670 8330
+	9850 7345 10085 7345
 Wire Wire Line
-	13670 8250 13670 8330
-Connection ~ 13670 8330
-Text Label 10970 7830 0    50   ~ 0
-on
+	10085 7265 10085 7345
+Connection ~ 10085 7345
 $Comp
 L Device:R R?
 U 1 1 61863D51
@@ -1056,38 +915,38 @@ $EndComp
 $Comp
 L Device:D_Schottky D?
 U 1 1 61915D54
-P 12755 7520
+P 9170 6535
 AR Path="/61915D54" Ref="D?"  Part="1" 
 AR Path="/6309618D/61915D54" Ref="D?"  Part="1" 
 AR Path="/63385DDA/61915D54" Ref="D?"  Part="1" 
 AR Path="/6340E1F3/61915D54" Ref="D21"  Part="1" 
 AR Path="/621760BD/61915D54" Ref="D?"  Part="1" 
 AR Path="/61D91DC5/61915D54" Ref="D42"  Part="1" 
-F 0 "D21" H 12675 7625 50  0000 C CNN
-F 1 "1n4148" H 12755 7410 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA" H 12755 7520 50  0001 C CNN
-F 3 "~" H 12755 7520 50  0001 C CNN
-	1    12755 7520
+F 0 "D21" H 9090 6640 50  0000 C CNN
+F 1 "1n4148" H 9170 6425 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA" H 9170 6535 50  0001 C CNN
+F 3 "~" H 9170 6535 50  0001 C CNN
+	1    9170 6535
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:D_Schottky Dex?
 U 1 1 61941051
-P 12755 8460
+P 9170 7475
 AR Path="/61941051" Ref="Dex?"  Part="1" 
 AR Path="/6309618D/61941051" Ref="Dex?"  Part="1" 
 AR Path="/63385DDA/61941051" Ref="Dex?"  Part="1" 
 AR Path="/6340E1F3/61941051" Ref="D22"  Part="1" 
 AR Path="/621760BD/61941051" Ref="Dex?"  Part="1" 
 AR Path="/61D91DC5/61941051" Ref="D43"  Part="1" 
-F 0 "D22" H 12745 8565 50  0000 C CNN
-F 1 "1n4148" H 12755 8350 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA" H 12755 8460 50  0001 C CNN
-F 3 "~" H 12755 8460 50  0001 C CNN
-	1    12755 8460
+F 0 "D22" H 9160 7580 50  0000 C CNN
+F 1 "1n4148" H 9170 7365 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA" H 9170 7475 50  0001 C CNN
+F 3 "~" H 9170 7475 50  0001 C CNN
+	1    9170 7475
 	0    1    1    0   
 $EndComp
-Text Notes 15270 8670 2    50   ~ 0
+Text Notes 11685 7685 2    50   ~ 0
 Zener diodes in gate drive circuits may cause oscillations\nso I used diode  for clamping gate voltages
 $Comp
 L Diode:BZX84Cxx D?
@@ -1161,24 +1020,6 @@ F 3 "https://www.onsemi.com/pub/Collateral/BC818-D.pdf" H 4655 8770 50  0001 L C
 $EndComp
 $Comp
 L Transistor_BJT:BC817 Q?
-U 1 1 619FDDB9
-P 8510 10115
-AR Path="/619FDDB9" Ref="Q?"  Part="1" 
-AR Path="/6309618D/619FDDB9" Ref="Q?"  Part="1" 
-AR Path="/63385DDA/619FDDB9" Ref="Q?"  Part="1" 
-AR Path="/6340E1F3/619FDDB9" Ref="Q5"  Part="1" 
-AR Path="/621760BD/619FDDB9" Ref="Q?"  Part="1" 
-AR Path="/61D91DC5/619FDDB9" Ref="Q17"  Part="1" 
-F 0 "Q5" H 8701 10161 50  0000 L CNN
-F 1 "BC817" H 8701 10070 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 8710 10040 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/BC818-D.pdf" H 8510 10115 50  0001 L CNN
-	1    8510 10115
-	-1   0    0    -1  
-$EndComp
-Connection ~ 8710 10115
-$Comp
-L Transistor_BJT:BC817 Q?
 U 1 1 619FFBE7
 P 11195 4560
 AR Path="/619FFBE7" Ref="Q?"  Part="1" 
@@ -1214,56 +1055,56 @@ $EndComp
 $Comp
 L Transistor_BJT:BC807 Q?
 U 1 1 61926996
-P 11170 8135
+P 7585 7150
 AR Path="/61926996" Ref="Q?"  Part="1" 
 AR Path="/6309618D/61926996" Ref="Q?"  Part="1" 
 AR Path="/63385DDA/61926996" Ref="Q?"  Part="1" 
 AR Path="/6340E1F3/61926996" Ref="Q9"  Part="1" 
 AR Path="/621760BD/61926996" Ref="Q?"  Part="1" 
 AR Path="/61D91DC5/61926996" Ref="Q21"  Part="1" 
-F 0 "Q9" H 11050 8255 50  0000 L CNN
-F 1 "BC807" H 11000 7985 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 11370 8060 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/BC808-D.pdf" H 11170 8135 50  0001 L CNN
-	1    11170 8135
+F 0 "Q9" H 7465 7270 50  0000 L CNN
+F 1 "BC807" H 7415 7000 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7785 7075 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/BC808-D.pdf" H 7585 7150 50  0001 L CNN
+	1    7585 7150
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	13670 8330 13980 8330
+	10085 7345 10395 7345
 Wire Wire Line
-	13435 7850 13670 7850
+	9850 6865 10085 6865
 Wire Wire Line
-	12435 7470 12435 7425
+	8850 6485 8850 6440
 Wire Wire Line
-	12435 8245 12435 8230
+	8850 7260 8850 7245
 Wire Wire Line
-	12435 8645 12435 8700
+	8850 7660 8850 7715
 Wire Wire Line
-	12755 8610 12755 8700
+	9170 7625 9170 7715
 Wire Wire Line
-	12755 8700 12435 8700
-Connection ~ 12435 8700
+	9170 7715 8850 7715
+Connection ~ 8850 7715
 Wire Wire Line
-	12435 8700 12435 8815
+	8850 7715 8850 7830
 Wire Wire Line
-	12435 7770 12435 7850
+	8850 6785 8850 6865
 Wire Wire Line
-	12755 8310 12755 7850
+	9170 7325 9170 6865
 Wire Wire Line
-	12755 7370 12755 6950
+	9170 6385 9170 5965
 Wire Wire Line
-	12755 6950 12435 6950
-Connection ~ 12435 6950
+	9170 5965 8850 5965
+Connection ~ 8850 5965
 Wire Wire Line
-	12435 6950 12435 6880
-Connection ~ 12755 7850
+	8850 5965 8850 5895
+Connection ~ 9170 6865
 Wire Wire Line
-	12755 7850 12755 7670
+	9170 6865 9170 6685
 Wire Wire Line
-	12755 7850 12435 7850
-Connection ~ 12435 7850
+	9170 6865 8850 6865
+Connection ~ 8850 6865
 Wire Wire Line
-	12435 7850 12435 7910
+	8850 6865 8850 6925
 Text HLabel 6760 6390 1    50   Input ~ 0
 Vpp
 Wire Wire Line
@@ -1301,20 +1142,20 @@ Connection ~ 3280 1585
 Wire Wire Line
 	3280 1585 3340 1585
 Wire Wire Line
-	11270 7225 11270 7355
+	7685 6240 7685 6370
 Wire Wire Line
 	4415 7050 6190 7050
-Text Label 11850 7825 0    50   ~ 0
+Text Label 8265 6840 0    50   ~ 0
 Control
 Connection ~ 3830 1585
-Text Label 13435 7850 0    50   ~ 0
+Text Label 9850 6865 0    50   ~ 0
 Gate
 Text Label 5020 1585 0    50   ~ 0
 Gate
-Text HLabel 5465 5695 1    50   Input ~ 0
+Text HLabel 5465 6045 1    50   Input ~ 0
 Collector
 Wire Wire Line
-	5465 5695 5465 5760
+	5465 6045 5465 6110
 Text Notes 1760 1050 0    50   ~ 0
 Active VCE protection
 Wire Notes Line
@@ -1354,15 +1195,7 @@ Text Label 5615 8840 0    50   ~ 0
 Protection
 Wire Wire Line
 	5765 8840 5960 8840
-Text Label 7660 9815 0    50   ~ 0
-Protection
-Wire Wire Line
-	8055 9815 7660 9815
-Text Notes 8950 8900 0    50   ~ 0
-Under voltage protection
-Wire Wire Line
-	10970 7555 10970 8135
-Text Notes 13310 7500 0    50   ~ 0
+Text Notes 9725 6515 0    50   ~ 0
 Power stage
 Text Label 6910 6825 0    50   ~ 0
 on
@@ -1371,58 +1204,58 @@ Control Circuit
 $Comp
 L Device:R Ron?
 U 1 1 619EEB07
-P 12290 7625
+P 8705 6640
 AR Path="/619EEB07" Ref="Ron?"  Part="1" 
 AR Path="/6309618D/619EEB07" Ref="Ron?"  Part="1" 
 AR Path="/63385DDA/619EEB07" Ref="Ron?"  Part="1" 
 AR Path="/6340E1F3/619EEB07" Ref="R33"  Part="1" 
 AR Path="/621760BD/619EEB07" Ref="Ron?"  Part="1" 
 AR Path="/61D91DC5/619EEB07" Ref="R66"  Part="1" 
-F 0 "R33" V 12290 7625 50  0000 C CNN
-F 1 "40" V 12360 7625 50  0000 C CNN
-F 2 "Resistor_SMD:R_2512_6332Metric" V 12220 7625 50  0001 C CNN
-F 3 "~" H 12290 7625 50  0001 C CNN
-	1    12290 7625
+F 0 "R33" V 8705 6640 50  0000 C CNN
+F 1 "40" V 8775 6640 50  0000 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric" V 8635 6640 50  0001 C CNN
+F 3 "~" H 8705 6640 50  0001 C CNN
+	1    8705 6640
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12290 7475 12290 7425
+	8705 6490 8705 6440
 Wire Wire Line
-	12290 7425 12435 7425
-Connection ~ 12435 7425
+	8705 6440 8850 6440
+Connection ~ 8850 6440
 Wire Wire Line
-	12435 7425 12435 7390
+	8850 6440 8850 6405
 Wire Wire Line
-	12290 7775 12290 7850
+	8705 6790 8705 6865
 Wire Wire Line
-	12290 7850 12435 7850
+	8705 6865 8850 6865
 $Comp
 L Device:R Roff?
 U 1 1 61A07E2C
-P 12290 8065
+P 8705 7080
 AR Path="/61A07E2C" Ref="Roff?"  Part="1" 
 AR Path="/6309618D/61A07E2C" Ref="Roff?"  Part="1" 
 AR Path="/63385DDA/61A07E2C" Ref="Roff?"  Part="1" 
 AR Path="/6340E1F3/61A07E2C" Ref="R34"  Part="1" 
 AR Path="/621760BD/61A07E2C" Ref="Roff?"  Part="1" 
 AR Path="/61D91DC5/61A07E2C" Ref="R67"  Part="1" 
-F 0 "R34" V 12290 8060 50  0000 C CNN
-F 1 "40" V 12370 8060 50  0000 C CNN
-F 2 "Resistor_SMD:R_2512_6332Metric" V 12220 8065 50  0001 C CNN
-F 3 "~" H 12290 8065 50  0001 C CNN
-	1    12290 8065
+F 0 "R34" V 8705 7075 50  0000 C CNN
+F 1 "40" V 8785 7075 50  0000 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric" V 8635 7080 50  0001 C CNN
+F 3 "~" H 8705 7080 50  0001 C CNN
+	1    8705 7080
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12290 7915 12290 7850
-Connection ~ 12290 7850
+	8705 6930 8705 6865
+Connection ~ 8705 6865
 Wire Wire Line
-	12290 8215 12290 8230
+	8705 7230 8705 7245
 Wire Wire Line
-	12290 8230 12435 8230
-Connection ~ 12435 8230
+	8705 7245 8850 7245
+Connection ~ 8850 7245
 Wire Wire Line
-	12435 8230 12435 8210
+	8850 7245 8850 7225
 Text HLabel 2385 4600 1    50   Input ~ 0
 Emitter
 $Comp
@@ -2105,7 +1938,7 @@ F 3 "~" H 3520 730 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5465 6410 5465 8010
+	5465 6760 5465 8010
 Wire Wire Line
 	4590 3360 4695 3360
 Text HLabel 5090 3355 1    50   Input ~ 0
@@ -2136,25 +1969,6 @@ Wire Wire Line
 Connection ~ 5030 3360
 Wire Wire Line
 	5030 3360 4995 3360
-$Comp
-L Device:R R?
-U 1 1 6201A0A0
-P 8410 9215
-AR Path="/6201A0A0" Ref="R?"  Part="1" 
-AR Path="/6309618D/6201A0A0" Ref="R?"  Part="1" 
-AR Path="/63385DDA/6201A0A0" Ref="R?"  Part="1" 
-AR Path="/6340E1F3/6201A0A0" Ref="R26"  Part="1" 
-AR Path="/621760BD/6201A0A0" Ref="R?"  Part="1" 
-AR Path="/61D91DC5/6201A0A0" Ref="R59"  Part="1" 
-F 0 "R26" V 8410 9165 50  0000 L CNN
-F 1 "1.5k" V 8285 9150 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 8340 9215 50  0001 C CNN
-F 3 "~" H 8410 9215 50  0001 C CNN
-	1    8410 9215
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	8410 9365 8410 9430
 Text Label 6310 7905 0    50   ~ 0
 fault
 Text Label 3925 9970 2    50   ~ 0
@@ -2283,12 +2097,10 @@ Connection ~ 3685 4630
 Connection ~ 3685 4980
 Text HLabel 6625 7255 3    50   Input ~ 0
 GND-p
-Text HLabel 8600 10570 3    50   Input ~ 0
-GND-p
 Wire Wire Line
 	3330 9230 4415 9230
 Wire Wire Line
-	12755 7850 13185 7850
+	9170 6865 9600 6865
 $Comp
 L Device:C C?
 U 1 1 61BB39CA
@@ -2363,35 +2175,30 @@ Wire Wire Line
 $Comp
 L Device:R R?
 U 1 1 61A959F5
-P 13185 8100
+P 9600 7115
 AR Path="/61A959F5" Ref="R?"  Part="1" 
 AR Path="/6309618D/61A959F5" Ref="R?"  Part="1" 
 AR Path="/63385DDA/61A959F5" Ref="R?"  Part="1" 
 AR Path="/6340E1F3/61A959F5" Ref="R37"  Part="1" 
 AR Path="/621760BD/61A959F5" Ref="R?"  Part="1" 
 AR Path="/61D91DC5/61A959F5" Ref="R70"  Part="1" 
-F 0 "R37" V 13090 8095 50  0000 C CNN
-F 1 "20K" V 13265 8095 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 13115 8100 50  0001 C CNN
-F 3 "~" H 13185 8100 50  0001 C CNN
-	1    13185 8100
+F 0 "R37" V 9505 7110 50  0000 C CNN
+F 1 "20K" V 9680 7110 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 9530 7115 50  0001 C CNN
+F 3 "~" H 9600 7115 50  0001 C CNN
+	1    9600 7115
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	13185 8330 13185 8250
+	9600 7345 9600 7265
 Wire Wire Line
-	13185 8330 13435 8330
-Connection ~ 13435 8330
+	9600 7345 9850 7345
+Connection ~ 9850 7345
 Wire Wire Line
-	13185 7950 13185 7850
-Connection ~ 13185 7850
+	9600 6965 9600 6865
+Connection ~ 9600 6865
 Wire Wire Line
-	13185 7850 13435 7850
-Wire Wire Line
-	8410 9065 8410 8990
-Wire Wire Line
-	8410 8990 8650 8990
-Connection ~ 8650 8990
+	9600 6865 9850 6865
 Text HLabel 5665 3395 1    50   Input ~ 0
 Vpp
 $Comp
@@ -2430,30 +2237,30 @@ Wire Wire Line
 $Comp
 L Device:R R?
 U 1 1 61B8ADA3
-P 5395 9845
+P 5440 10380
 AR Path="/61B8ADA3" Ref="R?"  Part="1" 
 AR Path="/6309618D/61B8ADA3" Ref="R?"  Part="1" 
 AR Path="/63385DDA/61B8ADA3" Ref="R?"  Part="1" 
 AR Path="/6340E1F3/61B8ADA3" Ref="R40"  Part="1" 
 AR Path="/621760BD/61B8ADA3" Ref="R?"  Part="1" 
 AR Path="/61D91DC5/61B8ADA3" Ref="R50"  Part="1" 
-F 0 "R40" V 5495 9825 50  0000 C CNN
-F 1 "1k" V 5305 9835 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 5325 9845 50  0001 C CNN
-F 3 "~" H 5395 9845 50  0001 C CNN
-	1    5395 9845
+F 0 "R40" V 5540 10360 50  0000 C CNN
+F 1 "1k" V 5350 10370 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5370 10380 50  0001 C CNN
+F 3 "~" H 5440 10380 50  0001 C CNN
+	1    5440 10380
 	-1   0    0    1   
 $EndComp
-Text HLabel 5395 9635 1    50   Input ~ 0
+Text HLabel 5440 10170 1    50   Input ~ 0
 Vpp
 Wire Wire Line
-	5395 9635 5395 9695
-Text Label 5290 10355 2    50   ~ 0
+	5440 10170 5440 10230
+Text Label 5335 10890 2    50   ~ 0
 fault
 Wire Wire Line
-	5395 9995 5395 10055
+	5440 10530 5440 10590
 Wire Wire Line
-	5290 10355 5395 10355
+	5335 10890 5440 10890
 $Comp
 L MLC:LED_Blue_0805 D23
 U 1 1 61C2889D
@@ -2469,7 +2276,7 @@ F 4 "MLCEL12238117" H 5665 4065 60  0001 C CNN "MLC"
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5395 10255 5395 10355
+	5440 10790 5440 10890
 Connection ~ 3805 9130
 Wire Wire Line
 	3805 9130 4060 9130
@@ -2478,15 +2285,15 @@ Wire Wire Line
 $Comp
 L MLC:LED_RED_0805 D1
 U 1 1 61B779A5
-P 5395 10155
+P 5440 10690
 AR Path="/6340E1F3/61B779A5" Ref="D1"  Part="1" 
 AR Path="/61D91DC5/61B779A5" Ref="D34"  Part="1" 
-F 0 "D1" V 5469 10267 50  0000 R CNN
-F 1 "LED_RED_0805" H 5620 10072 50  0000 R CNN
-F 2 "kicadFP:LED_RED_0805" V 5395 10155 50  0001 C CNN
-F 3 "" V 5395 10155 50  0001 C CNN
-F 4 "MLCEL12237862" H 5395 10155 60  0001 C CNN "MLC"
-	1    5395 10155
+F 0 "D1" V 5514 10802 50  0000 R CNN
+F 1 "LED_RED_0805" H 5665 10607 50  0000 R CNN
+F 2 "kicadFP:LED_RED_0805" V 5440 10690 50  0001 C CNN
+F 3 "" V 5440 10690 50  0001 C CNN
+F 4 "MLCEL12237862" H 5440 10690 60  0001 C CNN "MLC"
+	1    5440 10690
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -2526,4 +2333,201 @@ Wire Wire Line
 	1870 9130 2115 9130
 Text Notes 965  9535 0    50   ~ 0
 jumper for 15v logic
+Connection ~ 14035 3990
+Wire Wire Line
+	13795 3990 14035 3990
+Wire Wire Line
+	13795 4065 13795 3990
+Wire Wire Line
+	13795 4365 13795 4430
+$Comp
+L Device:R R?
+U 1 1 6201A0A0
+P 13795 4215
+AR Path="/6201A0A0" Ref="R?"  Part="1" 
+AR Path="/6309618D/6201A0A0" Ref="R?"  Part="1" 
+AR Path="/63385DDA/6201A0A0" Ref="R?"  Part="1" 
+AR Path="/6340E1F3/6201A0A0" Ref="R26"  Part="1" 
+AR Path="/621760BD/6201A0A0" Ref="R?"  Part="1" 
+AR Path="/61D91DC5/6201A0A0" Ref="R59"  Part="1" 
+F 0 "R26" V 13795 4140 50  0000 L CNN
+F 1 "1.5k" V 13670 4150 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 13725 4215 50  0001 C CNN
+F 3 "~" H 13795 4215 50  0001 C CNN
+	1    13795 4215
+	-1   0    0    -1  
+$EndComp
+Text Notes 14335 3900 0    50   ~ 0
+Under voltage protection
+Wire Wire Line
+	13440 4815 13045 4815
+Text Label 13045 4815 0    50   ~ 0
+Protection
+Connection ~ 14095 5115
+$Comp
+L Transistor_BJT:BC817 Q?
+U 1 1 619FDDB9
+P 13895 5115
+AR Path="/619FDDB9" Ref="Q?"  Part="1" 
+AR Path="/6309618D/619FDDB9" Ref="Q?"  Part="1" 
+AR Path="/63385DDA/619FDDB9" Ref="Q?"  Part="1" 
+AR Path="/6340E1F3/619FDDB9" Ref="Q5"  Part="1" 
+AR Path="/621760BD/619FDDB9" Ref="Q?"  Part="1" 
+AR Path="/61D91DC5/619FDDB9" Ref="Q17"  Part="1" 
+F 0 "Q5" H 14086 5161 50  0000 L CNN
+F 1 "BC817" H 14086 5070 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 14095 5040 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/BC818-D.pdf" H 13895 5115 50  0001 L CNN
+	1    13895 5115
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky Dex?
+U 1 1 631FDFEE
+P 13590 4815
+AR Path="/631FDFEE" Ref="Dex?"  Part="1" 
+AR Path="/6309618D/631FDFEE" Ref="Dex?"  Part="1" 
+AR Path="/63385DDA/631FDFEE" Ref="Dex?"  Part="1" 
+AR Path="/6340E1F3/631FDFEE" Ref="D18"  Part="1" 
+AR Path="/621760BD/631FDFEE" Ref="Dex?"  Part="1" 
+AR Path="/61D91DC5/631FDFEE" Ref="D39"  Part="1" 
+F 0 "D18" H 13590 4720 50  0000 C CNN
+F 1 "1n4148" H 13590 4925 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA" H 13590 4815 50  0001 C CNN
+F 3 "~" H 13590 4815 50  0001 C CNN
+	1    13590 4815
+	1    0    0    1   
+$EndComp
+Text HLabel 14035 3925 1    50   Input ~ 0
+Vpp
+Wire Wire Line
+	14035 3925 14035 3990
+Wire Wire Line
+	14260 3990 14035 3990
+Wire Wire Line
+	13795 4815 13795 4915
+Connection ~ 13795 4815
+Wire Wire Line
+	13740 4815 13795 4815
+Wire Wire Line
+	14260 3990 14260 4095
+Wire Wire Line
+	14260 4395 14260 4720
+Wire Wire Line
+	13795 4730 13795 4815
+Wire Wire Line
+	14095 5115 14095 5210
+Wire Wire Line
+	14260 5115 14095 5115
+Wire Wire Line
+	14260 5115 14260 5185
+Connection ~ 14260 5115
+Wire Wire Line
+	14260 5020 14260 5115
+$Comp
+L Device:C C?
+U 1 1 630D95BA
+P 14260 5335
+AR Path="/630D95BA" Ref="C?"  Part="1" 
+AR Path="/6309618D/630D95BA" Ref="C?"  Part="1" 
+AR Path="/63385DDA/630D95BA" Ref="C?"  Part="1" 
+AR Path="/6340E1F3/630D95BA" Ref="C39"  Part="1" 
+AR Path="/621760BD/630D95BA" Ref="C?"  Part="1" 
+AR Path="/61D91DC5/630D95BA" Ref="C66"  Part="1" 
+F 0 "C39" H 14170 5415 50  0000 L CNN
+F 1 "1nF" V 14210 5145 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 14298 5185 50  0001 C CNN
+F 3 "~" H 14260 5335 50  0001 C CNN
+	1    14260 5335
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 630D95B4
+P 14095 5360
+AR Path="/630D95B4" Ref="R?"  Part="1" 
+AR Path="/6309618D/630D95B4" Ref="R?"  Part="1" 
+AR Path="/63385DDA/630D95B4" Ref="R?"  Part="1" 
+AR Path="/6340E1F3/630D95B4" Ref="R28"  Part="1" 
+AR Path="/621760BD/630D95B4" Ref="R?"  Part="1" 
+AR Path="/61D91DC5/630D95B4" Ref="R61"  Part="1" 
+F 0 "R28" V 14090 5310 50  0000 L CNN
+F 1 "1K" H 14165 5315 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 14025 5360 50  0001 C CNN
+F 3 "~" H 14095 5360 50  0001 C CNN
+	1    14095 5360
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 630D95AE
+P 13795 4580
+AR Path="/630D95AE" Ref="R?"  Part="1" 
+AR Path="/6309618D/630D95AE" Ref="R?"  Part="1" 
+AR Path="/63385DDA/630D95AE" Ref="R?"  Part="1" 
+AR Path="/6340E1F3/630D95AE" Ref="R27"  Part="1" 
+AR Path="/621760BD/630D95AE" Ref="R?"  Part="1" 
+AR Path="/61D91DC5/630D95AE" Ref="R60"  Part="1" 
+F 0 "R27" V 13790 4505 50  0000 L CNN
+F 1 "1.8k" V 13670 4515 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 13725 4580 50  0001 C CNN
+F 3 "~" H 13795 4580 50  0001 C CNN
+	1    13795 4580
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Diode:BZX84Cxx D?
+U 1 1 630D95A8
+P 14260 4870
+AR Path="/630D95A8" Ref="D?"  Part="1" 
+AR Path="/6309618D/630D95A8" Ref="D?"  Part="1" 
+AR Path="/63385DDA/630D95A8" Ref="D?"  Part="1" 
+AR Path="/6340E1F3/630D95A8" Ref="D19"  Part="1" 
+AR Path="/621760BD/630D95A8" Ref="D?"  Part="1" 
+AR Path="/61D91DC5/630D95A8" Ref="D40"  Part="1" 
+F 0 "D19" H 14185 4750 50  0000 L CNN
+F 1 "BZX85C20" H 14060 4980 50  0000 L CNN
+F 2 "Diode_SMD:D_MELF" H 14260 4695 50  0001 C CNN
+F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf" H 14260 4870 50  0001 C CNN
+	1    14260 4870
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 630D95A2
+P 14260 4245
+AR Path="/630D95A2" Ref="R?"  Part="1" 
+AR Path="/6309618D/630D95A2" Ref="R?"  Part="1" 
+AR Path="/63385DDA/630D95A2" Ref="R?"  Part="1" 
+AR Path="/6340E1F3/630D95A2" Ref="R29"  Part="1" 
+AR Path="/621760BD/630D95A2" Ref="R?"  Part="1" 
+AR Path="/61D91DC5/630D95A2" Ref="R62"  Part="1" 
+F 0 "R29" V 14255 4190 50  0000 L CNN
+F 1 "1K" H 14330 4200 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 14190 4245 50  0001 C CNN
+F 3 "~" H 14260 4245 50  0001 C CNN
+	1    14260 4245
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	13795 5570 14095 5570
+Wire Wire Line
+	14260 5570 14260 5485
+Wire Wire Line
+	14095 5510 14095 5570
+Connection ~ 14095 5570
+Wire Wire Line
+	14095 5570 14260 5570
+Wire Wire Line
+	13795 5315 13795 5570
+Text HLabel 13985 5570 3    50   Input ~ 0
+GND-p
+Wire Wire Line
+	7095 6825 7385 6825
+Connection ~ 7095 6825
+Wire Wire Line
+	7385 6570 7385 6825
+Connection ~ 7385 6825
+Wire Wire Line
+	7385 6825 7385 7150
 $EndSCHEMATC
