@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 287)
+    (drawings 288)
     (tracks 1400)
     (zones 0)
     (modules 240)
@@ -10532,6 +10532,9 @@
       (net 54 /EMITTER_TOP))
   )
 
+  (gr_text "layout this side again" (at 119.81 118.84) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_text 5v (at 137.62 136.86) (layer F.SilkS) (tstamp 619F65CC)
     (effects (font (size 1 1) (thickness 0.15)))
   )
